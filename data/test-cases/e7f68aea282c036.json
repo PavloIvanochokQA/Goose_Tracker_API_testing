@@ -1,0 +1,181 @@
+{
+  "uid" : "e7f68aea282c036",
+  "name" : "T04: Create a new user with an already existing email.",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_create_user_with_already_existing_email",
+  "historyId" : "e838d45e7ecc75ed7d7a337dad74a545",
+  "time" : {
+    "start" : 1737378972714,
+    "stop" : 1737378974659,
+    "duration" : 1945
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1737378972714,
+      "stop" : 1737378972714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1737378970752,
+      "stop" : 1737378970753,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1737378972714,
+        "stop" : 1737378974160,
+        "duration" : 1446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f679a4c7793b334f",
+        "name" : "API Response",
+        "source" : "f679a4c7793b334f.json",
+        "type" : "application/json",
+        "size" : 517
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Create user with an already existing email.",
+      "time" : {
+        "start" : 1737378974160,
+        "stop" : 1737378974659,
+        "duration" : 499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d866c2a9dfe55067",
+        "name" : "API Response",
+        "source" : "d866c2a9dfe55067.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "'veronica89@example.net'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1737378974660,
+      "stop" : 1737378974660,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User Authentication"
+  }, {
+    "name" : "tag",
+    "value" : "order(4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "b22b5f71c360"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6d90acfbae59f939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378287881,
+          "stop" : 1737378288349,
+          "duration" : 468
+        }
+      } ]
+    },
+    "tags" : [ "order(4)" ]
+  },
+  "source" : "e7f68aea282c036.json",
+  "parameterValues" : [ ]
+}

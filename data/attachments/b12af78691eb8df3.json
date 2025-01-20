@@ -1,0 +1,27 @@
+{
+    "success": false,
+    "error": {
+        "errors": {
+            "date": {
+                "stringValue": "\"01-2025\"",
+                "valueType": "string",
+                "kind": "date",
+                "value": "01-2025",
+                "path": "date",
+                "reason": {
+                    "generatedMessage": true,
+                    "code": "ERR_ASSERTION",
+                    "actual": false,
+                    "expected": true,
+                    "operator": "=="
+                },
+                "name": "CastError",
+                "message": "Cast to date failed for value \"01-2025\" (type string) at path \"date\""
+            }
+        },
+        "_message": "Notice validation failed",
+        "name": "ValidationError",
+        "message": "Notice validation failed: date: Cast to date failed for value \"01-2025\" (type string) at path \"date\""
+    },
+    "message": "Notice validation failed: date: Cast to date failed for value \"01-2025\" (type string) at path \"date\""
+}

@@ -1,0 +1,9 @@
+{
+    "id": "678e4ca76eb12444f2b468c2",
+    "name": "Nicole",
+    "email": "skim@example.com",
+    "data": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2E3NmViMTI0NDRmMmI0NjhjMiIsImlhdCI6MTczNzM3ODk4MywiZXhwIjoxNzM3MzgyNTgzfQ.lTVkMncj3RuDIzFUJWe-q7zk2UAbN9gpb4En8ddslXA",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2E3NmViMTI0NDRmMmI0NjhjMiIsImlhdCI6MTczNzM3ODk4MywiZXhwIjoxNzM5OTcwOTgzfQ.Vs7B-pirVFkp03kM9RZu7z6pydEHj8pQPI_Fq-msNSg"
+    }
+}

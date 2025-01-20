@@ -1,0 +1,9 @@
+{
+    "id": "678e4cbf6eb12444f2b46945",
+    "name": "William",
+    "email": "kforbes@example.org",
+    "data": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2JmNmViMTI0NDRmMmI0Njk0NSIsImlhdCI6MTczNzM3OTAwNywiZXhwIjoxNzM3MzgyNjA3fQ.jMhuM5MU5OTj2P7HlC2YRJ3PQRrIKxTuV0Bn4BhDvWw",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2JmNmViMTI0NDRmMmI0Njk0NSIsImlhdCI6MTczNzM3OTAwNywiZXhwIjoxNzM5OTcxMDA3fQ.0OYcKsLP2BUGSJNsiS-m0v3JNxVgkNklhSXwel7Foio"
+    }
+}

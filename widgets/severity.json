@@ -1,1 +1,381 @@
-[{"uid":"2dc2f6f50a2adda0","name":"T37: Attempt to delete another user's task.","time":{"start":1737378303307,"stop":1737378304282,"duration":975},"status":"failed","severity":"normal"},{"uid":"4a19b21f26b08b4b","name":"T16: Get current user info.","time":{"start":1737378291125,"stop":1737378291645,"duration":520},"status":"passed","severity":"normal"},{"uid":"c1d6c3dfe966b927","name":"T17: Get current user info with an invalid token.","time":{"start":1737378291648,"stop":1737378292097,"duration":449},"status":"passed","severity":"normal"},{"uid":"548669912fe2b777","name":"T26: Create a task with an invalid category.","time":{"start":1737378296243,"stop":1737378296714,"duration":471},"status":"passed","severity":"normal"},{"uid":"b2d53ec2fa0c7110","name":"T31: Update an existing task with an empty title.","time":{"start":1737378298904,"stop":1737378299596,"duration":692},"status":"failed","severity":"normal"},{"uid":"3c3ad389f62335aa","name":"T28: Create a task with an invalid time.","time":{"start":1737378297199,"stop":1737378297710,"duration":511},"status":"failed","severity":"normal"},{"uid":"e58e39a0b70de012","name":"T11: Log in with an invalid password.","time":{"start":1737378289350,"stop":1737378289605,"duration":255},"status":"passed","severity":"normal"},{"uid":"a6f0117d23ad7889","name":"T21: Update user info with an invalid token.","time":{"start":1737378293839,"stop":1737378294295,"duration":456},"status":"passed","severity":"normal"},{"uid":"34f869bf93b9ba6b","name":"T12: Log in without a password.","time":{"start":1737378289608,"stop":1737378289743,"duration":135},"status":"passed","severity":"normal"},{"uid":"6d90acfbae59f939","name":"T04: Create a new user with an already existing email.","time":{"start":1737378287881,"stop":1737378288349,"duration":468},"status":"passed","severity":"normal"},{"uid":"7d7856b9c9316ba4","name":"T33: Update an existing task with an invalid priority.","time":{"start":1737378300307,"stop":1737378300972,"duration":665},"status":"failed","severity":"normal"},{"uid":"955c98163bc3bee2","name":"T06: Create a new user without a name.","time":{"start":1737378288492,"stop":1737378288627,"duration":135},"status":"passed","severity":"normal"},{"uid":"7b899c7367be6c5c","name":"T34: Update an existing task with an invalid category.","time":{"start":1737378300986,"stop":1737378301656,"duration":670},"status":"failed","severity":"normal"},{"uid":"56ae41245f14e510","name":"T05: Create a new user without a password.","time":{"start":1737378288352,"stop":1737378288489,"duration":137},"status":"passed","severity":"normal"},{"uid":"78ecef9b6d54f480","name":"T14: Log out with an invalid token.","time":{"start":1737378290210,"stop":1737378290634,"duration":424},"status":"passed","severity":"normal"},{"uid":"a1ecf83be00d35b","name":"T18: Update user info with valid data.","time":{"start":1737378292100,"stop":1737378292646,"duration":546},"status":"passed","severity":"normal"},{"uid":"996d610d0599ffe0","name":"T02: Create a new user with an invalid email.","time":{"start":1737378287612,"stop":1737378287739,"duration":127},"status":"passed","severity":"normal"},{"uid":"9ca0ff3ddd307e87","name":"T25: Create a task with an invalid priority.","time":{"start":1737378295766,"stop":1737378296240,"duration":474},"status":"passed","severity":"normal"},{"uid":"c404f099d0625577","name":"T29: Create a task with an invalid date format.","time":{"start":1737378297724,"stop":1737378298208,"duration":484},"status":"passed","severity":"normal"},{"uid":"2ccc0575bbc4db0b","name":"T01: Create a new user with a valid email, password, and name.","time":{"start":1737378287250,"stop":1737378287609,"duration":359},"status":"passed","severity":"normal"},{"uid":"d5f1de4b36b23373","name":"T15: Refresh tokens.","time":{"start":1737378290637,"stop":1737378291122,"duration":485},"status":"passed","severity":"normal"},{"uid":"79395e735dc0b100","name":"T36: Delete a task that has already been deleted.","time":{"start":1737378302359,"stop":1737378303304,"duration":945},"status":"passed","severity":"normal"},{"uid":"29abc0fc47bba410","name":"T08: Log in with valid email and password.","time":{"start":1737378288767,"stop":1737378289047,"duration":280},"status":"passed","severity":"normal"},{"uid":"7291755e4331200b","name":"T30: Update an existing task with valid data.","time":{"start":1737378298212,"stop":1737378298901,"duration":689},"status":"passed","severity":"normal"},{"uid":"28f765db795cbcc9","name":"T09: Log in with a valid email that is not registered.","time":{"start":1737378289051,"stop":1737378289207,"duration":156},"status":"passed","severity":"normal"},{"uid":"b782bd7575a0f4ab","name":"T22: Create a task with valid data.","time":{"start":1737378294299,"stop":1737378294803,"duration":504},"status":"passed","severity":"normal"},{"uid":"39fd04da142dfb84","name":"T03: Create a new user with an invalid password.","time":{"start":1737378287742,"stop":1737378287878,"duration":136},"status":"passed","severity":"normal"},{"uid":"eddc1e1e225cdb33","name":"T19: Update user info with an empty name.","time":{"start":1737378292649,"stop":1737378293171,"duration":522},"status":"failed","severity":"normal"},{"uid":"5b9e90904ed11159","name":"T27: Create a task without start/end fields.","time":{"start":1737378296717,"stop":1737378297195,"duration":478},"status":"passed","severity":"normal"},{"uid":"6d7065d3e3e90674","name":"T07: Create a new user without a email.","time":{"start":1737378288630,"stop":1737378288764,"duration":134},"status":"passed","severity":"normal"},{"uid":"d13fd2922b13a8fa","name":"T20: Update user info with an invalid email.","time":{"start":1737378293302,"stop":1737378293826,"duration":524},"status":"failed","severity":"normal"},{"uid":"320eb227d94636b7","name":"T35: Delete one of the existing tasks.","time":{"start":1737378301670,"stop":1737378302356,"duration":686},"status":"passed","severity":"normal"},{"uid":"500a4cdc40575954","name":"T38: Attempt to update a task that belongs to another user.","time":{"start":1737378304296,"stop":1737378305272,"duration":976},"status":"failed","severity":"normal"},{"uid":"a700fa055a15bbb7","name":"T13: Log out from the account.","time":{"start":1737378289746,"stop":1737378290207,"duration":461},"status":"passed","severity":"normal"},{"uid":"234ef74371d28b8b","name":"T32: Update an existing task with an invalid time.","time":{"start":1737378299609,"stop":1737378300293,"duration":684},"status":"failed","severity":"normal"},{"uid":"ba49aff6d737d6d1","name":"T23: Get the list of tasks.","time":{"start":1737378294806,"stop":1737378295284,"duration":478},"status":"passed","severity":"normal"},{"uid":"a362a28827051e73","name":"T10: Log in with an invalid email.","time":{"start":1737378289211,"stop":1737378289347,"duration":136},"status":"passed","severity":"normal"},{"uid":"44018673fb81da63","name":"T24: Create a task with an empty title.","time":{"start":1737378295287,"stop":1737378295763,"duration":476},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "a23dd4c9d7420f16",
+  "name" : "T35: Delete one of the existing tasks.",
+  "time" : {
+    "start" : 1737379005845,
+    "stop" : 1737379007475,
+    "duration" : 1630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60b80421b085521b",
+  "name" : "T31: Update an existing task with an empty title.",
+  "time" : {
+    "start" : 1737378999319,
+    "stop" : 1737379000940,
+    "duration" : 1621
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7f68aea282c036",
+  "name" : "T04: Create a new user with an already existing email.",
+  "time" : {
+    "start" : 1737378972714,
+    "stop" : 1737378974659,
+    "duration" : 1945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4f5209b81710684",
+  "name" : "T23: Get the list of tasks.",
+  "time" : {
+    "start" : 1737378990023,
+    "stop" : 1737378991115,
+    "duration" : 1092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5704c7f655411113",
+  "name" : "T18: Update user info with valid data.",
+  "time" : {
+    "start" : 1737378984312,
+    "stop" : 1737378985464,
+    "duration" : 1152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d42176d1be125edc",
+  "name" : "T13: Log out from the account.",
+  "time" : {
+    "start" : 1737378978742,
+    "stop" : 1737378979848,
+    "duration" : 1106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23c6d51c34038a65",
+  "name" : "T30: Update an existing task with valid data.",
+  "time" : {
+    "start" : 1737378997706,
+    "stop" : 1737378999318,
+    "duration" : 1612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14e058a8c555ffc3",
+  "name" : "T02: Create a new user with an invalid email.",
+  "time" : {
+    "start" : 1737378971666,
+    "stop" : 1737378972259,
+    "duration" : 593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79f5c08a4b4d8866",
+  "name" : "T37: Attempt to delete another user's task.",
+  "time" : {
+    "start" : 1737379009560,
+    "stop" : 1737379011748,
+    "duration" : 2188
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c243f3f0655c1d14",
+  "name" : "T27: Create a task without start/end fields.",
+  "time" : {
+    "start" : 1737378994402,
+    "stop" : 1737378995484,
+    "duration" : 1082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c1ca94d9f827637",
+  "name" : "T20: Update user info with an invalid email.",
+  "time" : {
+    "start" : 1737378986657,
+    "stop" : 1737378987812,
+    "duration" : 1155
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d59248d71906a35",
+  "name" : "T34: Update an existing task with an invalid category.",
+  "time" : {
+    "start" : 1737379004209,
+    "stop" : 1737379005838,
+    "duration" : 1629
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e39a1b554a6486b",
+  "name" : "T26: Create a task with an invalid category.",
+  "time" : {
+    "start" : 1737378993305,
+    "stop" : 1737378994401,
+    "duration" : 1096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fd73b05b2f3fe84",
+  "name" : "T06: Create a new user without a name.",
+  "time" : {
+    "start" : 1737378975105,
+    "stop" : 1737378975546,
+    "duration" : 441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae92b759f1c0d58a",
+  "name" : "T12: Log in without a password.",
+  "time" : {
+    "start" : 1737378978300,
+    "stop" : 1737378978741,
+    "duration" : 441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7904dd60d2162674",
+  "name" : "T33: Update an existing task with an invalid priority.",
+  "time" : {
+    "start" : 1737379002554,
+    "stop" : 1737379004202,
+    "duration" : 1648
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c84a416cf8177ac5",
+  "name" : "T29: Create a task with an invalid date format.",
+  "time" : {
+    "start" : 1737378996610,
+    "stop" : 1737378997705,
+    "duration" : 1095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4b084db0db961ef",
+  "name" : "T25: Create a task with an invalid priority.",
+  "time" : {
+    "start" : 1737378992203,
+    "stop" : 1737378993304,
+    "duration" : 1101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a8389ed9842ace4",
+  "name" : "T36: Delete a task that has already been deleted.",
+  "time" : {
+    "start" : 1737379007477,
+    "stop" : 1737379009559,
+    "duration" : 2082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29c0c83174878aa6",
+  "name" : "T38: Attempt to update a task that belongs to another user.",
+  "time" : {
+    "start" : 1737379011756,
+    "stop" : 1737379014021,
+    "duration" : 2265
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b832eb9edc8a30c9",
+  "name" : "T14: Log out with an invalid token.",
+  "time" : {
+    "start" : 1737378979849,
+    "stop" : 1737378980904,
+    "duration" : 1055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c8910ca990c9cc2",
+  "name" : "T11: Log in with an invalid password.",
+  "time" : {
+    "start" : 1737378977724,
+    "stop" : 1737378978298,
+    "duration" : 574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae463dca60b7d71a",
+  "name" : "T08: Log in with valid email and password.",
+  "time" : {
+    "start" : 1737378975988,
+    "stop" : 1737378976812,
+    "duration" : 824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29eb9d21ebfbe932",
+  "name" : "T21: Update user info with an invalid token.",
+  "time" : {
+    "start" : 1737378987819,
+    "stop" : 1737378988895,
+    "duration" : 1076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5288f8193690de2",
+  "name" : "T15: Refresh tokens.",
+  "time" : {
+    "start" : 1737378980905,
+    "stop" : 1737378982013,
+    "duration" : 1108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9e0be1e50a22d04",
+  "name" : "T16: Get current user info.",
+  "time" : {
+    "start" : 1737378982014,
+    "stop" : 1737378983113,
+    "duration" : 1099
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7cd3c5524c2131a",
+  "name" : "T05: Create a new user without a password.",
+  "time" : {
+    "start" : 1737378974661,
+    "stop" : 1737378975104,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb3b4ae9139108a9",
+  "name" : "T19: Update user info with an empty name.",
+  "time" : {
+    "start" : 1737378985466,
+    "stop" : 1737378986620,
+    "duration" : 1154
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd7530582f947675",
+  "name" : "T03: Create a new user with an invalid password.",
+  "time" : {
+    "start" : 1737378972260,
+    "stop" : 1737378972712,
+    "duration" : 452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6bff1aabe3330df",
+  "name" : "T17: Get current user info with an invalid token.",
+  "time" : {
+    "start" : 1737378983114,
+    "stop" : 1737378984311,
+    "duration" : 1197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc3d603cbd2f18cf",
+  "name" : "T09: Log in with a valid email that is not registered.",
+  "time" : {
+    "start" : 1737378976814,
+    "stop" : 1737378977279,
+    "duration" : 465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fba23279a630e0b",
+  "name" : "T07: Create a new user without a email.",
+  "time" : {
+    "start" : 1737378975548,
+    "stop" : 1737378975986,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7cf7e070f71b570",
+  "name" : "T22: Create a task with valid data.",
+  "time" : {
+    "start" : 1737378988897,
+    "stop" : 1737378990021,
+    "duration" : 1124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a744d6c42ff765d",
+  "name" : "T24: Create a task with an empty title.",
+  "time" : {
+    "start" : 1737378991116,
+    "stop" : 1737378992202,
+    "duration" : 1086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "433a4c7c1ef4e78d",
+  "name" : "T28: Create a task with an invalid time.",
+  "time" : {
+    "start" : 1737378995485,
+    "stop" : 1737378996602,
+    "duration" : 1117
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a407aaf36c75c194",
+  "name" : "T01: Create a new user with a valid email, password, and name.",
+  "time" : {
+    "start" : 1737378970753,
+    "stop" : 1737378971664,
+    "duration" : 911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1840e257806c3d90",
+  "name" : "T10: Log in with an invalid email.",
+  "time" : {
+    "start" : 1737378977281,
+    "stop" : 1737378977723,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c95788375f790ba1",
+  "name" : "T32: Update an existing task with an invalid time.",
+  "time" : {
+    "start" : 1737379000948,
+    "stop" : 1737379002546,
+    "duration" : 1598
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

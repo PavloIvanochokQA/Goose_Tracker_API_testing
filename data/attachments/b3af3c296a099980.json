@@ -1,0 +1,4 @@
+{
+    "success": false,
+    "message": "the passport must contain Latin letters: at least 1 lowercase, 1 uppercase, 1 number and be at least 6 and no more than 12 characters"
+}

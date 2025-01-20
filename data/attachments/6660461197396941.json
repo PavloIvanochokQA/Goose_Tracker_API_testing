@@ -1,0 +1,24 @@
+{
+    "success": false,
+    "error": {
+        "errors": {
+            "title": {
+                "name": "ValidatorError",
+                "message": "Path `title` is required.",
+                "properties": {
+                    "message": "Path `title` is required.",
+                    "type": "required",
+                    "path": "title",
+                    "value": ""
+                },
+                "kind": "required",
+                "path": "title",
+                "value": ""
+            }
+        },
+        "_message": "Notice validation failed",
+        "name": "ValidationError",
+        "message": "Notice validation failed: title: Path `title` is required."
+    },
+    "message": "Notice validation failed: title: Path `title` is required."
+}
