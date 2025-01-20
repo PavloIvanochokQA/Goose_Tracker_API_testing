@@ -6,273 +6,273 @@
       "name" : "test_user_authentication",
       "children" : [ {
         "name" : "T01: Create a new user with a valid email, password, and name.",
-        "uid" : "a407aaf36c75c194",
+        "uid" : "3c032e34da0c79a1",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378970753,
-          "stop" : 1737378971664,
-          "duration" : 911
+          "start" : 1737381736541,
+          "stop" : 1737381737258,
+          "duration" : 717
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T02: Create a new user with an invalid email.",
-        "uid" : "14e058a8c555ffc3",
+        "uid" : "3d8a2c5fa11f788d",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378971666,
-          "stop" : 1737378972259,
-          "duration" : 593
+          "start" : 1737381737260,
+          "stop" : 1737381737749,
+          "duration" : 489
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T03: Create a new user with an invalid password.",
-        "uid" : "cd7530582f947675",
+        "uid" : "edb126c6c86fdab8",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378972260,
-          "stop" : 1737378972712,
-          "duration" : 452
+          "start" : 1737381737750,
+          "stop" : 1737381738072,
+          "duration" : 322
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T04: Create a new user with an already existing email.",
-        "uid" : "e7f68aea282c036",
+        "uid" : "a3e1f2aabd4f5a9b",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378972714,
-          "stop" : 1737378974659,
-          "duration" : 1945
+          "start" : 1737381738074,
+          "stop" : 1737381738945,
+          "duration" : 871
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T05: Create a new user without a password.",
-        "uid" : "d7cd3c5524c2131a",
+        "uid" : "d72ae3425c33afe0",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378974661,
-          "stop" : 1737378975104,
-          "duration" : 443
+          "start" : 1737381738947,
+          "stop" : 1737381739453,
+          "duration" : 506
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T06: Create a new user without a name.",
-        "uid" : "8fd73b05b2f3fe84",
+        "uid" : "3b4f6509c52444bf",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378975105,
-          "stop" : 1737378975546,
-          "duration" : 441
+          "start" : 1737381739455,
+          "stop" : 1737381739767,
+          "duration" : 312
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T07: Create a new user without a email.",
-        "uid" : "1fba23279a630e0b",
+        "uid" : "15185f4e5bd83611",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378975548,
-          "stop" : 1737378975986,
-          "duration" : 438
+          "start" : 1737381739769,
+          "stop" : 1737381740096,
+          "duration" : 327
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T08: Log in with valid email and password.",
-        "uid" : "ae463dca60b7d71a",
+        "uid" : "d88456f0a9314371",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378975988,
-          "stop" : 1737378976812,
-          "duration" : 824
+          "start" : 1737381740097,
+          "stop" : 1737381740575,
+          "duration" : 478
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T09: Log in with a valid email that is not registered.",
-        "uid" : "bc3d603cbd2f18cf",
+        "uid" : "f352cd856efc577b",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378976814,
-          "stop" : 1737378977279,
-          "duration" : 465
+          "start" : 1737381740576,
+          "stop" : 1737381740923,
+          "duration" : 347
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T10: Log in with an invalid email.",
-        "uid" : "1840e257806c3d90",
+        "uid" : "7269393feb4d55a6",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378977281,
-          "stop" : 1737378977723,
-          "duration" : 442
+          "start" : 1737381740925,
+          "stop" : 1737381741260,
+          "duration" : 335
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T11: Log in with an invalid password.",
-        "uid" : "7c8910ca990c9cc2",
+        "uid" : "c24dc9ceba1ec90",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378977724,
-          "stop" : 1737378978298,
-          "duration" : 574
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "T12: Log in without a password.",
-        "uid" : "ae92b759f1c0d58a",
-        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
-        "status" : "passed",
-        "time" : {
-          "start" : 1737378978300,
-          "stop" : 1737378978741,
+          "start" : 1737381741262,
+          "stop" : 1737381741703,
           "duration" : 441
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "T13: Log out from the account.",
-        "uid" : "d42176d1be125edc",
+        "name" : "T12: Log in without a password.",
+        "uid" : "fb5d8ccceb9473d5",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378978742,
-          "stop" : 1737378979848,
-          "duration" : 1106
+          "start" : 1737381741705,
+          "stop" : 1737381742236,
+          "duration" : 531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "T13: Log out from the account.",
+        "uid" : "5a4abc3d33023745",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737381742238,
+          "stop" : 1737381743068,
+          "duration" : 830
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T14: Log out with an invalid token.",
-        "uid" : "b832eb9edc8a30c9",
+        "uid" : "8ef22c6c2db3167a",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378979849,
-          "stop" : 1737378980904,
-          "duration" : 1055
+          "start" : 1737381743070,
+          "stop" : 1737381743872,
+          "duration" : 802
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T15: Refresh tokens.",
-        "uid" : "a5288f8193690de2",
+        "uid" : "4f1ac2778c26e416",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378980905,
-          "stop" : 1737378982013,
-          "duration" : 1108
+          "start" : 1737381743874,
+          "stop" : 1737381744711,
+          "duration" : 837
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T16: Get current user info.",
-        "uid" : "e9e0be1e50a22d04",
+        "uid" : "608943fc6f3b6f1a",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378982014,
-          "stop" : 1737378983113,
-          "duration" : 1099
+          "start" : 1737381744712,
+          "stop" : 1737381745547,
+          "duration" : 835
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T17: Get current user info with an invalid token.",
-        "uid" : "f6bff1aabe3330df",
+        "uid" : "b3783f249ebb151a",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378983114,
-          "stop" : 1737378984311,
-          "duration" : 1197
+          "start" : 1737381745549,
+          "stop" : 1737381746373,
+          "duration" : 824
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T18: Update user info with valid data.",
-        "uid" : "5704c7f655411113",
+        "uid" : "d832c61b4bdd3761",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378984312,
-          "stop" : 1737378985464,
-          "duration" : 1152
+          "start" : 1737381746375,
+          "stop" : 1737381747252,
+          "duration" : 877
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T19: Update user info with an empty name.",
-        "uid" : "eb3b4ae9139108a9",
+        "uid" : "802c5236d387894b",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "failed",
         "time" : {
-          "start" : 1737378985466,
-          "stop" : 1737378986620,
-          "duration" : 1154
+          "start" : 1737381747254,
+          "stop" : 1737381748139,
+          "duration" : 885
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T20: Update user info with an invalid email.",
-        "uid" : "6c1ca94d9f827637",
+        "uid" : "b08292408535c703",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "failed",
         "time" : {
-          "start" : 1737378986657,
-          "stop" : 1737378987812,
-          "duration" : 1155
+          "start" : 1737381748177,
+          "stop" : 1737381749058,
+          "duration" : 881
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T21: Update user info with an invalid token.",
-        "uid" : "29eb9d21ebfbe932",
+        "uid" : "a19f76e633c0fca4",
         "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
         "status" : "passed",
         "time" : {
-          "start" : 1737378987819,
-          "stop" : 1737378988895,
-          "duration" : 1076
+          "start" : 1737381749066,
+          "stop" : 1737381749898,
+          "duration" : 832
         },
         "flaky" : false,
         "newFailed" : false,
@@ -283,221 +283,221 @@
       "name" : "test_task_management",
       "children" : [ {
         "name" : "T22: Create a task with valid data.",
-        "uid" : "a7cf7e070f71b570",
+        "uid" : "99f4c4d269706470",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378988897,
-          "stop" : 1737378990021,
-          "duration" : 1124
+          "start" : 1737381749900,
+          "stop" : 1737381750779,
+          "duration" : 879
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T23: Get the list of tasks.",
-        "uid" : "d4f5209b81710684",
+        "uid" : "bf68c85999e4dc69",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378990023,
-          "stop" : 1737378991115,
-          "duration" : 1092
+          "start" : 1737381750781,
+          "stop" : 1737381751599,
+          "duration" : 818
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T24: Create a task with an empty title.",
-        "uid" : "8a744d6c42ff765d",
+        "uid" : "591a2b3bdca30fe",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378991116,
-          "stop" : 1737378992202,
-          "duration" : 1086
+          "start" : 1737381751600,
+          "stop" : 1737381752468,
+          "duration" : 868
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T25: Create a task with an invalid priority.",
-        "uid" : "f4b084db0db961ef",
+        "uid" : "e9fdefb1d9ddb974",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378992203,
-          "stop" : 1737378993304,
-          "duration" : 1101
+          "start" : 1737381752470,
+          "stop" : 1737381753303,
+          "duration" : 833
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T26: Create a task with an invalid category.",
-        "uid" : "4e39a1b554a6486b",
+        "uid" : "af7c5cc5e461394f",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378993305,
-          "stop" : 1737378994401,
-          "duration" : 1096
+          "start" : 1737381753305,
+          "stop" : 1737381754140,
+          "duration" : 835
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T27: Create a task without start/end fields.",
-        "uid" : "c243f3f0655c1d14",
+        "uid" : "9af4a145e73651a7",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378994402,
-          "stop" : 1737378995484,
-          "duration" : 1082
+          "start" : 1737381754142,
+          "stop" : 1737381754985,
+          "duration" : 843
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T28: Create a task with an invalid time.",
-        "uid" : "433a4c7c1ef4e78d",
+        "uid" : "a807af2c4c3d02be",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "failed",
         "time" : {
-          "start" : 1737378995485,
-          "stop" : 1737378996602,
-          "duration" : 1117
+          "start" : 1737381754986,
+          "stop" : 1737381755849,
+          "duration" : 863
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T29: Create a task with an invalid date format.",
-        "uid" : "c84a416cf8177ac5",
+        "uid" : "65d70323627e5f65",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378996610,
-          "stop" : 1737378997705,
-          "duration" : 1095
+          "start" : 1737381755857,
+          "stop" : 1737381756692,
+          "duration" : 835
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T30: Update an existing task with valid data.",
-        "uid" : "23c6d51c34038a65",
+        "uid" : "36012757748bab50",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737378997706,
-          "stop" : 1737378999318,
-          "duration" : 1612
+          "start" : 1737381756694,
+          "stop" : 1737381758096,
+          "duration" : 1402
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T31: Update an existing task with an empty title.",
-        "uid" : "60b80421b085521b",
+        "uid" : "7cea9747616a52b0",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "failed",
         "time" : {
-          "start" : 1737378999319,
-          "stop" : 1737379000940,
-          "duration" : 1621
+          "start" : 1737381758098,
+          "stop" : 1737381759303,
+          "duration" : 1205
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T32: Update an existing task with an invalid time.",
-        "uid" : "c95788375f790ba1",
+        "uid" : "d994b9668f0f8c4",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "failed",
         "time" : {
-          "start" : 1737379000948,
-          "stop" : 1737379002546,
-          "duration" : 1598
+          "start" : 1737381759312,
+          "stop" : 1737381760520,
+          "duration" : 1208
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T33: Update an existing task with an invalid priority.",
-        "uid" : "7904dd60d2162674",
+        "uid" : "fc3d53f4cb7357ed",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "failed",
         "time" : {
-          "start" : 1737379002554,
-          "stop" : 1737379004202,
-          "duration" : 1648
+          "start" : 1737381760528,
+          "stop" : 1737381761741,
+          "duration" : 1213
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T34: Update an existing task with an invalid category.",
-        "uid" : "7d59248d71906a35",
+        "uid" : "466e0a0f8981847c",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "failed",
         "time" : {
-          "start" : 1737379004209,
-          "stop" : 1737379005838,
-          "duration" : 1629
+          "start" : 1737381761750,
+          "stop" : 1737381762971,
+          "duration" : 1221
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T35: Delete one of the existing tasks.",
-        "uid" : "a23dd4c9d7420f16",
+        "uid" : "42bda434f94b22fa",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737379005845,
-          "stop" : 1737379007475,
-          "duration" : 1630
+          "start" : 1737381762979,
+          "stop" : 1737381764187,
+          "duration" : 1208
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T36: Delete a task that has already been deleted.",
-        "uid" : "4a8389ed9842ace4",
+        "uid" : "a094bc24b3b30836",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "passed",
         "time" : {
-          "start" : 1737379007477,
-          "stop" : 1737379009559,
-          "duration" : 2082
+          "start" : 1737381764189,
+          "stop" : 1737381765756,
+          "duration" : 1567
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T37: Attempt to delete another user's task.",
-        "uid" : "79f5c08a4b4d8866",
+        "uid" : "e9e2ea149792cef5",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "failed",
         "time" : {
-          "start" : 1737379009560,
-          "stop" : 1737379011748,
-          "duration" : 2188
+          "start" : 1737381765758,
+          "stop" : 1737381767439,
+          "duration" : 1681
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "T38: Attempt to update a task that belongs to another user.",
-        "uid" : "29c0c83174878aa6",
+        "uid" : "c0d711eeacb0e9ce",
         "parentUid" : "b130cedb459304a1da86a37a0d225470",
         "status" : "failed",
         "time" : {
-          "start" : 1737379011756,
-          "stop" : 1737379014021,
-          "duration" : 2265
+          "start" : 1737381767448,
+          "stop" : 1737381769131,
+          "duration" : 1683
         },
         "flaky" : false,
         "newFailed" : false,

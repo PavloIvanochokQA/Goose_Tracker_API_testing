@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "36012757748bab50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381756694,
+        "stop" : 1737381758096,
+        "duration" : 1402
+      }
+    }, {
       "uid" : "23c6d51c34038a65",
       "status" : "passed",
       "time" : {
@@ -31,11 +39,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "3b4f6509c52444bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381739455,
+        "stop" : 1737381739767,
+        "duration" : 312
+      }
+    }, {
       "uid" : "8fd73b05b2f3fe84",
       "status" : "passed",
       "time" : {
@@ -58,11 +74,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "8ef22c6c2db3167a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381743070,
+        "stop" : 1737381743872,
+        "duration" : 802
+      }
+    }, {
       "uid" : "b832eb9edc8a30c9",
       "status" : "passed",
       "time" : {
@@ -85,11 +109,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d72ae3425c33afe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381738947,
+        "stop" : 1737381739453,
+        "duration" : 506
+      }
+    }, {
       "uid" : "d7cd3c5524c2131a",
       "status" : "passed",
       "time" : {
@@ -112,11 +144,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "99f4c4d269706470",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381749900,
+        "stop" : 1737381750779,
+        "duration" : 879
+      }
+    }, {
       "uid" : "a7cf7e070f71b570",
       "status" : "passed",
       "time" : {
@@ -136,14 +176,23 @@
   },
   "37857501c205622a070374ef51bec7cc" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e9e2ea149792cef5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'_id': '678e57866eb12444f2b46a25', 'title': 'Theory stand writer.', 'start': '12:11:41', 'end': '00:42:01', 'priority': 'low', 'category': 'to-do', 'owner': '678e57866eb12444f2b46a21', 'date': '2025-01-13T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:46.541Z', 'updatedAt': '2025-01-20T14:02:46.541Z', '__v': 0}",
+      "time" : {
+        "start" : 1737381765758,
+        "stop" : 1737381767439,
+        "duration" : 1681
+      }
+    }, {
       "uid" : "79f5c08a4b4d8866",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'_id': '678e4cc26eb12444f2b46954', 'title': 'Marriage strategy better.', 'start': '11:31:32', 'end': '16:56:50', 'priority': 'low', 'category': 'to-do', 'owner': '678e4cc16eb12444f2b46950', 'date': '2025-01-16T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:50.567Z', 'updatedAt': '2025-01-20T13:16:50.567Z', '__v': 0}",
@@ -168,11 +217,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d88456f0a9314371",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381740097,
+        "stop" : 1737381740575,
+        "duration" : 478
+      }
+    }, {
       "uid" : "ae463dca60b7d71a",
       "status" : "passed",
       "time" : {
@@ -195,11 +252,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "bf68c85999e4dc69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381750781,
+        "stop" : 1737381751599,
+        "duration" : 818
+      }
+    }, {
       "uid" : "d4f5209b81710684",
       "status" : "passed",
       "time" : {
@@ -222,11 +287,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d832c61b4bdd3761",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381746375,
+        "stop" : 1737381747252,
+        "duration" : 877
+      }
+    }, {
       "uid" : "5704c7f655411113",
       "status" : "passed",
       "time" : {
@@ -249,11 +322,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "f352cd856efc577b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381740576,
+        "stop" : 1737381740923,
+        "duration" : 347
+      }
+    }, {
       "uid" : "bc3d603cbd2f18cf",
       "status" : "passed",
       "time" : {
@@ -276,11 +357,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7269393feb4d55a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381740925,
+        "stop" : 1737381741260,
+        "duration" : 335
+      }
+    }, {
       "uid" : "1840e257806c3d90",
       "status" : "passed",
       "time" : {
@@ -300,14 +389,23 @@
   },
   "ec18b5ff360722f7c95ce0e94dcc433a" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7cea9747616a52b0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e577e6eb12444f2b469ed', 'title': '', 'start': '19:46:07', 'end': '11:42:49', 'priority': 'high', 'category': 'to-do', 'owner': '678e577e6eb12444f2b469e9', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:38.867Z', 'updatedAt': '2025-01-20T14:02:39.224Z', '__v': 0}}",
+      "time" : {
+        "start" : 1737381758098,
+        "stop" : 1737381759303,
+        "duration" : 1205
+      }
+    }, {
       "uid" : "60b80421b085521b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cb86eb12444f2b4691c', 'title': '', 'start': '10:15:59', 'end': '16:28:35', 'priority': 'medium', 'category': 'to-do', 'owner': '678e4cb76eb12444f2b46918', 'date': '2025-01-13T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:40.352Z', 'updatedAt': '2025-01-20T13:16:40.843Z', '__v': 0}}",
@@ -332,11 +430,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "fb5d8ccceb9473d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381741705,
+        "stop" : 1737381742236,
+        "duration" : 531
+      }
+    }, {
       "uid" : "ae92b759f1c0d58a",
       "status" : "passed",
       "time" : {
@@ -356,14 +462,23 @@
   },
   "816aeb0a7bb5505d8d81e499c4d96038" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b08292408535c703",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678e57746eb12444f2b469a5', 'name': 'Thomas', 'email': 'raymondelizabeth', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1Nzc0NmViMTI0NDRmMmI0NjlhNSIsImlhdCI6MTczNzM4MTc0OCwiZXhwIjoxNzM3Mzg1MzQ4fQ.-igAeJEKTBEpzZpIYI9P5cYHTU3a60vMpWhrbFGINVY', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1Nzc0NmViMTI0NDRmMmI0NjlhNSIsImlhdCI6MTczNzM4MTc0OCwiZXhwIjoxNzM5OTczNzQ4fQ.bVvjF1NlqNw5ufMlJHC-bhydSC5M5Ushvs3iw9XONho', 'phone': '001-902-352-1198x91031', 'birthday': '1950-06-09', 'skype': 'richardsonrobert', 'userImgUrl': 'https://placekitten.com/883/573', 'userTasks': []}",
+      "time" : {
+        "start" : 1737381748177,
+        "stop" : 1737381749058,
+        "duration" : 881
+      }
+    }, {
       "uid" : "6c1ca94d9f827637",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678e4cab6eb12444f2b468d4', 'name': 'Michael', 'email': 'uwilliamson', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2FiNmViMTI0NDRmMmI0NjhkNCIsImlhdCI6MTczNzM3ODk4NywiZXhwIjoxNzM3MzgyNTg3fQ.9ZXx-i2g13r66IGyxKd9MZkj24dzj0OStNNFucMCPm4', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2FiNmViMTI0NDRmMmI0NjhkNCIsImlhdCI6MTczNzM3ODk4NywiZXhwIjoxNzM5OTcwOTg3fQ.EUaQuBkbG2H-zpxrdBqSGTwi-5eXZipIanCwfUV0Z68', 'phone': '(357)297-5729x99949', 'birthday': '1979-11-08', 'skype': 'melissacarter', 'userImgUrl': 'https://dummyimage.com/801x354', 'userTasks': []}",
@@ -388,11 +503,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a19f76e633c0fca4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381749066,
+        "stop" : 1737381749898,
+        "duration" : 832
+      }
+    }, {
       "uid" : "29eb9d21ebfbe932",
       "status" : "passed",
       "time" : {
@@ -412,14 +535,23 @@
   },
   "fafa0064ecdb363ac8de4c6fb4cb98bc" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "fc3d53f4cb7357ed",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57816eb12444f2b469ff', 'title': 'Note sea lay.', 'start': '15:51:25', 'end': '16:38:30', 'priority': 'back', 'category': 'done', 'owner': '678e57806eb12444f2b469fb', 'date': '2025-01-11T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:41.303Z', 'updatedAt': '2025-01-20T14:02:41.663Z', '__v': 0}}",
+      "time" : {
+        "start" : 1737381760528,
+        "stop" : 1737381761741,
+        "duration" : 1213
+      }
+    }, {
       "uid" : "7904dd60d2162674",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cbb6eb12444f2b4692e', 'title': 'Company magazine.', 'start': '01:07:11', 'end': '02:02:17', 'priority': 'energy', 'category': 'done', 'owner': '678e4cba6eb12444f2b4692a', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:43.606Z', 'updatedAt': '2025-01-20T13:16:44.104Z', '__v': 0}}",
@@ -444,11 +576,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "edb126c6c86fdab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381737750,
+        "stop" : 1737381738072,
+        "duration" : 322
+      }
+    }, {
       "uid" : "cd7530582f947675",
       "status" : "passed",
       "time" : {
@@ -468,14 +608,23 @@
   },
   "c7d402871bfa14987044af4b2536ef89" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "466e0a0f8981847c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57826eb12444f2b46a08', 'title': 'Me notice.', 'start': '09:36:26', 'end': '15:48:11', 'priority': 'medium', 'category': 'dinner', 'owner': '678e57826eb12444f2b46a04', 'date': '2025-01-09T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:42.531Z', 'updatedAt': '2025-01-20T14:02:42.891Z', '__v': 0}}",
+      "time" : {
+        "start" : 1737381761750,
+        "stop" : 1737381762971,
+        "duration" : 1221
+      }
+    }, {
       "uid" : "7d59248d71906a35",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cbd6eb12444f2b46937', 'title': 'About hair continue.', 'start': '03:10:50', 'end': '16:32:00', 'priority': 'medium', 'category': 'position', 'owner': '678e4cbc6eb12444f2b46933', 'date': '2025-01-17T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:45.227Z', 'updatedAt': '2025-01-20T13:16:45.726Z', '__v': 0}}",
@@ -500,11 +649,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a094bc24b3b30836",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381764189,
+        "stop" : 1737381765756,
+        "duration" : 1567
+      }
+    }, {
       "uid" : "4a8389ed9842ace4",
       "status" : "passed",
       "time" : {
@@ -527,11 +684,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "5a4abc3d33023745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381742238,
+        "stop" : 1737381743068,
+        "duration" : 830
+      }
+    }, {
       "uid" : "d42176d1be125edc",
       "status" : "passed",
       "time" : {
@@ -554,11 +719,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "591a2b3bdca30fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381751600,
+        "stop" : 1737381752468,
+        "duration" : 868
+      }
+    }, {
       "uid" : "8a744d6c42ff765d",
       "status" : "passed",
       "time" : {
@@ -581,11 +754,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "42bda434f94b22fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381762979,
+        "stop" : 1737381764187,
+        "duration" : 1208
+      }
+    }, {
       "uid" : "a23dd4c9d7420f16",
       "status" : "passed",
       "time" : {
@@ -608,11 +789,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "15185f4e5bd83611",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381739769,
+        "stop" : 1737381740096,
+        "duration" : 327
+      }
+    }, {
       "uid" : "1fba23279a630e0b",
       "status" : "passed",
       "time" : {
@@ -635,11 +824,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "4f1ac2778c26e416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381743874,
+        "stop" : 1737381744711,
+        "duration" : 837
+      }
+    }, {
       "uid" : "a5288f8193690de2",
       "status" : "passed",
       "time" : {
@@ -662,11 +859,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "3c032e34da0c79a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381736541,
+        "stop" : 1737381737258,
+        "duration" : 717
+      }
+    }, {
       "uid" : "a407aaf36c75c194",
       "status" : "passed",
       "time" : {
@@ -686,14 +891,23 @@
   },
   "82ac6b61e9104cd27d84bdea5fed4e6f" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d994b9668f0f8c4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57806eb12444f2b469f6', 'title': 'Spend personal claim.', 'start': 'will', 'end': 'tend', 'priority': 'low', 'category': 'in-progress', 'owner': '678e577f6eb12444f2b469f2', 'date': '2025-01-02T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:40.083Z', 'updatedAt': '2025-01-20T14:02:40.441Z', '__v': 0}}",
+      "time" : {
+        "start" : 1737381759312,
+        "stop" : 1737381760520,
+        "duration" : 1208
+      }
+    }, {
       "uid" : "c95788375f790ba1",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cb96eb12444f2b46925', 'title': 'Per military door.', 'start': 'color', 'end': 'weight', 'priority': 'low', 'category': 'done', 'owner': '678e4cb96eb12444f2b46921', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:41.957Z', 'updatedAt': '2025-01-20T13:16:42.447Z', '__v': 0}}",
@@ -718,11 +932,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a3e1f2aabd4f5a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381738074,
+        "stop" : 1737381738945,
+        "duration" : 871
+      }
+    }, {
       "uid" : "e7f68aea282c036",
       "status" : "passed",
       "time" : {
@@ -742,14 +964,23 @@
   },
   "587504d47a5da5c6624bbcfa72245337" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c0d711eeacb0e9ce",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57886eb12444f2b46a30', 'title': 'Table traditional building.', 'start': '00:39:00', 'end': '23:41:02', 'priority': 'high', 'category': 'in-progress', 'owner': '678e57876eb12444f2b46a2c', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:48.231Z', 'updatedAt': '2025-01-20T14:02:49.050Z', '__v': 0}}",
+      "time" : {
+        "start" : 1737381767448,
+        "stop" : 1737381769131,
+        "duration" : 1683
+      }
+    }, {
       "uid" : "29c0c83174878aa6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cc46eb12444f2b4695f', 'title': 'If mouth.', 'start': '03:49:23', 'end': '07:23:39', 'priority': 'high', 'category': 'to-do', 'owner': '678e4cc46eb12444f2b4695b', 'date': '2025-01-15T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:52.771Z', 'updatedAt': '2025-01-20T13:16:53.918Z', '__v': 0}}",
@@ -774,11 +1005,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "9af4a145e73651a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381754142,
+        "stop" : 1737381754985,
+        "duration" : 843
+      }
+    }, {
       "uid" : "c243f3f0655c1d14",
       "status" : "passed",
       "time" : {
@@ -801,11 +1040,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "af7c5cc5e461394f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381753305,
+        "stop" : 1737381754140,
+        "duration" : 835
+      }
+    }, {
       "uid" : "4e39a1b554a6486b",
       "status" : "passed",
       "time" : {
@@ -828,11 +1075,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c24dc9ceba1ec90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381741262,
+        "stop" : 1737381741703,
+        "duration" : 441
+      }
+    }, {
       "uid" : "7c8910ca990c9cc2",
       "status" : "passed",
       "time" : {
@@ -855,11 +1110,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "3d8a2c5fa11f788d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381737260,
+        "stop" : 1737381737749,
+        "duration" : 489
+      }
+    }, {
       "uid" : "14e058a8c555ffc3",
       "status" : "passed",
       "time" : {
@@ -879,14 +1142,23 @@
   },
   "34671eae70af7125824f3f375f46e834" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "802c5236d387894b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678e57736eb12444f2b4699e', 'name': '', 'email': 'atkinsmichael@example.com', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1NzczNmViMTI0NDRmMmI0Njk5ZSIsImlhdCI6MTczNzM4MTc0NywiZXhwIjoxNzM3Mzg1MzQ3fQ.jEkBA6rnbXWSs37FhxP5SexLsCEN6cnwuqv4P4LXQu4', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1NzczNmViMTI0NDRmMmI0Njk5ZSIsImlhdCI6MTczNzM4MTc0NywiZXhwIjoxNzM5OTczNzQ3fQ.t_UUsD3aNDyLGiwDlO-O4b2LoUtPL1T6OqLLk_MTuDA', 'phone': '(957)830-5351x52687', 'birthday': '2009-07-31', 'skype': 'matthew94', 'userImgUrl': 'https://dummyimage.com/474x772', 'userTasks': []}",
+      "time" : {
+        "start" : 1737381747254,
+        "stop" : 1737381748139,
+        "duration" : 885
+      }
+    }, {
       "uid" : "eb3b4ae9139108a9",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678e4ca96eb12444f2b468cd', 'name': '', 'email': 'beth81@example.org', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2E5NmViMTI0NDRmMmI0NjhjZCIsImlhdCI6MTczNzM3ODk4NSwiZXhwIjoxNzM3MzgyNTg1fQ.thdecsxpcs4ksBfzBZBFvRmKsQGmWojcEz0xs-9LmRg', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU0Y2E5NmViMTI0NDRmMmI0NjhjZCIsImlhdCI6MTczNzM3ODk4NSwiZXhwIjoxNzM5OTcwOTg1fQ.EtdMry0JqlsZDsq1zRxJU-L-WX4aVkZAh3TJehNlBEg', 'phone': '637.634.4062', 'birthday': '1956-07-13', 'skype': 'jesus85', 'userImgUrl': 'https://placekitten.com/515/36', 'userTasks': []}",
@@ -911,11 +1183,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b3783f249ebb151a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381745549,
+        "stop" : 1737381746373,
+        "duration" : 824
+      }
+    }, {
       "uid" : "f6bff1aabe3330df",
       "status" : "passed",
       "time" : {
@@ -938,11 +1218,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "608943fc6f3b6f1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381744712,
+        "stop" : 1737381745547,
+        "duration" : 835
+      }
+    }, {
       "uid" : "e9e0be1e50a22d04",
       "status" : "passed",
       "time" : {
@@ -965,11 +1253,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "65d70323627e5f65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381755857,
+        "stop" : 1737381756692,
+        "duration" : 835
+      }
+    }, {
       "uid" : "c84a416cf8177ac5",
       "status" : "passed",
       "time" : {
@@ -992,11 +1288,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e9fdefb1d9ddb974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737381752470,
+        "stop" : 1737381753303,
+        "duration" : 833
+      }
+    }, {
       "uid" : "f4b084db0db961ef",
       "status" : "passed",
       "time" : {
@@ -1016,14 +1320,23 @@
   },
   "e787cd589deccac9edeb1e7e970ae02c" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a807af2c4c3d02be",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 400, but got 201. Response: {'title': 'Area other hard difference.', 'start': 'area', 'end': 'trial', 'priority': 'low', 'category': 'to-do', 'owner': '678e577b6eb12444f2b469d3', 'date': '2025-01-14T00:00:00.000Z', '_id': '678e577b6eb12444f2b469d7', 'createdAt': '2025-01-20T14:02:35.771Z', 'updatedAt': '2025-01-20T14:02:35.771Z', '__v': 0}",
+      "time" : {
+        "start" : 1737381754986,
+        "stop" : 1737381755849,
+        "duration" : 863
+      }
+    }, {
       "uid" : "433a4c7c1ef4e78d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Expected status code 400, but got 201. Response: {'title': 'Only provide and.', 'start': 'campaign', 'end': 'before', 'priority': 'low', 'category': 'done', 'owner': '678e4cb36eb12444f2b46902', 'date': '2025-01-10T00:00:00.000Z', '_id': '678e4cb46eb12444f2b46906', 'createdAt': '2025-01-20T13:16:36.500Z', 'updatedAt': '2025-01-20T13:16:36.500Z', '__v': 0}",

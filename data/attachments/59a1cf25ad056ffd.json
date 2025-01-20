@@ -1,0 +1,16 @@
+{
+    "status": "success",
+    "task": {
+        "_id": "678e577d6eb12444f2b469e4",
+        "title": "Pressure next treat.",
+        "start": "09:53:29",
+        "end": "19:00:11",
+        "priority": "medium",
+        "category": "in-progress",
+        "owner": "678e577d6eb12444f2b469e0",
+        "date": "2025-01-19T00:00:00.000Z",
+        "createdAt": "2025-01-20T14:02:37.650Z",
+        "updatedAt": "2025-01-20T14:02:38.018Z",
+        "__v": 0
+    }
+}
