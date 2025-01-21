@@ -53,7 +53,7 @@ class UserAuthAPI(Helper):
         model = BadRequestModel(**response.json())
         return model
 
-    @allure.step("Create user with an already existing email.")
+    @allure.step("Create a user with email.")
     def create_user_with_already_existing_email(self, email):
         response = requests.post(
             url=self.endpoints.user_registration,
@@ -152,7 +152,7 @@ class UserAuthAPI(Helper):
         model = BadRequestModel(**response.json())
         return model
 
-    @allure.step("Log out from the account.")
+    @allure.step("Log out.")
     def logout(self, Token):
         response = requests.get(
             url=self.endpoints.logout,
@@ -219,7 +219,7 @@ class UserAuthAPI(Helper):
         model = UpdateUserModel(**response.json())
         return model
 
-    @allure.step("Update user info with empty name.")
+    @allure.step("Update user info with an empty name.")
     def update_user_info_with_empty_name(self, Token):
         response = requests.patch(
             url=self.endpoints.update_user_info,

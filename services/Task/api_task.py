@@ -31,7 +31,7 @@ class TaskAPI(Helper):
         model = TaskModel(**response.json())
         return model
     
-    @allure.step("Get the list of tasks.")
+    @allure.step("Get task list.")
     def get_task_list(self, Token, year, month):
         response = requests.get(
             url=self.endpoints.get_list_of_task(year, month),
@@ -114,7 +114,7 @@ class TaskAPI(Helper):
         model = ErrorModel(**response.json())
         return model
     
-    @allure.step("Update an existing task with valid data.")
+    @allure.step("Update a task.")
     def update_task(self, Token, task_id):
         response = requests.put(
             url=self.endpoints.update_task(task_id),
@@ -126,7 +126,7 @@ class TaskAPI(Helper):
         model = TaskUpdateModel(**response.json())
         return model
     
-    @allure.step("Update an existing task with an empty title.")
+    @allure.step("Update a task with an empty title.")
     def update_task_with_empty_title(self, Token, task_id):
         response = requests.put(
             url=self.endpoints.update_task(task_id),
@@ -138,7 +138,7 @@ class TaskAPI(Helper):
         model = ErrorModel(**response.json())
         return model
     
-    @allure.step("Update an existing task with an invalid time.")
+    @allure.step("Update a task with an invalid time.")
     def update_task_with_invalid_time(self, Token, task_id):
         response = requests.put(
             url=self.endpoints.update_task(task_id),
@@ -150,7 +150,7 @@ class TaskAPI(Helper):
         model = ErrorModel(**response.json())
         return model
     
-    @allure.step("Update an existing task with an invalid priority.")
+    @allure.step("Update a task with an invalid priority.")
     def update_task_with_invalid_priority(self, Token, task_id):
         response = requests.put(
             url=self.endpoints.update_task(task_id),
@@ -162,7 +162,7 @@ class TaskAPI(Helper):
         model = ErrorModel(**response.json())
         return model
     
-    @allure.step("Update an existing task with an invalid category.")
+    @allure.step("Update a task with an invalid category.")
     def update_task_with_invalid_category(self, Token, task_id):
         response = requests.put(
             url=self.endpoints.update_task(task_id),
@@ -174,7 +174,7 @@ class TaskAPI(Helper):
         model = ErrorModel(**response.json())
         return model
     
-    @allure.step("Delete one of the existing tasks.")
+    @allure.step("Delete a task.")
     def delete_task(self, Token, task_id):
         response = requests.delete(
             url=self.endpoints.delete_task(task_id),
@@ -185,7 +185,7 @@ class TaskAPI(Helper):
         model = TaskModel(**response.json())
         return model
     
-    @allure.step("Delete a task that has already been deleted.")
+    @allure.step("Delete already deleted task.")
     def delete_already_deleted_task(self, Token, task_id):
         response = requests.delete(
             url=self.endpoints.delete_task(task_id),
@@ -196,7 +196,7 @@ class TaskAPI(Helper):
         model = BadRequestModel(**response.json())
         return model
     
-    @allure.step("Attempt to delete another user's task.")
+    @allure.step("Delete another user's task.")
     def delete_another_user_task(self, Token, task_id):
         response = requests.delete(
             url=self.endpoints.delete_task(task_id),
@@ -207,7 +207,7 @@ class TaskAPI(Helper):
         model = BadRequestModel(**response.json())
         return model
     
-    @allure.step("Attempt to update a task that belongs to another user.")
+    @allure.step("Update another user's task.")
     def update_another_user_task(self, Token, task_id):
         response = requests.put(
             url=self.endpoints.update_task(task_id),
