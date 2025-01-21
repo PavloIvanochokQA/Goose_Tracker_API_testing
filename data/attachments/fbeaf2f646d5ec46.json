@@ -1,0 +1,9 @@
+{
+    "id": "678f7fee6eb12444f2b46afd",
+    "name": "Deborah",
+    "email": "riverathomas@example.org",
+    "data": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmVlNmViMTI0NDRmMmI0NmFmZCIsImlhdCI6MTczNzQ1NzY0NiwiZXhwIjoxNzM3NDYxMjQ2fQ.R6dfYouU1ToREu7NhFqsfw_AL5BR4wdo8tSM_FMcx5g",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmVlNmViMTI0NDRmMmI0NmFmZCIsImlhdCI6MTczNzQ1NzY0NiwiZXhwIjoxNzQwMDQ5NjQ2fQ.uDR5DAoWqQElc4BrXQZao0lpqM7ahCLyEEuZogbatgw"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "id": "678f7fea6eb12444f2b46ae7",
+    "name": "Scott",
+    "email": "owise@example.org",
+    "data": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmVhNmViMTI0NDRmMmI0NmFlNyIsImlhdCI6MTczNzQ1NzY0MiwiZXhwIjoxNzM3NDYxMjQyfQ.ssmmn34qdCav7J9EeCx0gPFyyH4dfAU71MjjDDDotT8",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmVhNmViMTI0NDRmMmI0NmFlNyIsImlhdCI6MTczNzQ1NzY0MiwiZXhwIjoxNzQwMDQ5NjQyfQ.pZZhyKgXl1ViWXHUmYnzUlEeZ2PvzdJq5YcHnxAZowM"
+    }
+}

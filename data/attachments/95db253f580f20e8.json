@@ -1,0 +1,16 @@
+{
+    "status": "success",
+    "task": {
+        "_id": "678f7fe26eb12444f2b46ab5",
+        "title": "Call state audience.",
+        "start": "19:06:46",
+        "end": "10:48:48",
+        "priority": "medium",
+        "category": "to-do",
+        "owner": "678f7fe26eb12444f2b46ab1",
+        "date": "2025-01-19T00:00:00.000Z",
+        "createdAt": "2025-01-21T11:07:14.912Z",
+        "updatedAt": "2025-01-21T11:07:15.317Z",
+        "__v": 0
+    }
+}

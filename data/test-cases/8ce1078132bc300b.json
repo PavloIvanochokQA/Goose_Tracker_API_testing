@@ -1,0 +1,231 @@
+{
+  "uid" : "8ce1078132bc300b",
+  "name" : "T34: Update an existing task with an invalid category.",
+  "fullName" : "tests.test_task_management.TestTaskManagement#test_update_task_with_invalid_category",
+  "historyId" : "c7d402871bfa14987044af4b2536ef89",
+  "time" : {
+    "start" : 1737457639455,
+    "stop" : 1737457640826,
+    "duration" : 1371
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe86eb12444f2b46ad9', 'title': 'Dream family.', 'start': '06:40:27', 'end': '14:44:47', 'priority': 'low', 'category': 'drop', 'owner': '678f7fe76eb12444f2b46ad5', 'date': '2025-01-16T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:20.337Z', 'updatedAt': '2025-01-21T11:07:20.739Z', '__v': 0}}",
+  "statusTrace" : "self = <test_task_management.TestTaskManagement object at 0x7f8366220d50>\n\n    @pytest.mark.order(34)\n    @allure.title(\"T34: Update an existing task with an invalid category.\")\n    def test_update_task_with_invalid_category(self):\n        user = self.api_user_auth.create_user()\n        task = self.api_task.create_task(Token=user.data.accessToken)\n>       self.api_task.update_task_with_invalid_category(Token=user.data.accessToken, task_id=task.id)\n\ntests/test_task_management.py:90: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/Task/api_task.py:172: in update_task_with_invalid_category\n    self.assert_status(response, 400)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.Task.api_task.TaskAPI object at 0x7f836778cd50>\nresponse = <Response [200]>, expected_status = 400\n\n    def assert_status(self, response, expected_status):\n>       assert response.status_code == expected_status, \\\n            (f\"Expected status code {expected_status}, but got {response.status_code}. Response: {response.json()}\")\nE       AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe86eb12444f2b46ad9', 'title': 'Dream family.', 'start': '06:40:27', 'end': '14:44:47', 'priority': 'low', 'category': 'drop', 'owner': '678f7fe76eb12444f2b46ad5', 'date': '2025-01-16T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:20.337Z', 'updatedAt': '2025-01-21T11:07:20.739Z', '__v': 0}}\n\nutils/helper.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1737457612203,
+      "stop" : 1737457612205,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement",
+    "time" : {
+      "start" : 1737457639455,
+      "stop" : 1737457639455,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe86eb12444f2b46ad9', 'title': 'Dream family.', 'start': '06:40:27', 'end': '14:44:47', 'priority': 'low', 'category': 'drop', 'owner': '678f7fe76eb12444f2b46ad5', 'date': '2025-01-16T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:20.337Z', 'updatedAt': '2025-01-21T11:07:20.739Z', '__v': 0}}",
+    "statusTrace" : "self = <test_task_management.TestTaskManagement object at 0x7f8366220d50>\n\n    @pytest.mark.order(34)\n    @allure.title(\"T34: Update an existing task with an invalid category.\")\n    def test_update_task_with_invalid_category(self):\n        user = self.api_user_auth.create_user()\n        task = self.api_task.create_task(Token=user.data.accessToken)\n>       self.api_task.update_task_with_invalid_category(Token=user.data.accessToken, task_id=task.id)\n\ntests/test_task_management.py:90: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/Task/api_task.py:172: in update_task_with_invalid_category\n    self.assert_status(response, 400)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.Task.api_task.TaskAPI object at 0x7f836778cd50>\nresponse = <Response [200]>, expected_status = 400\n\n    def assert_status(self, response, expected_status):\n>       assert response.status_code == expected_status, \\\n            (f\"Expected status code {expected_status}, but got {response.status_code}. Response: {response.json()}\")\nE       AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe86eb12444f2b46ad9', 'title': 'Dream family.', 'start': '06:40:27', 'end': '14:44:47', 'priority': 'low', 'category': 'drop', 'owner': '678f7fe76eb12444f2b46ad5', 'date': '2025-01-16T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:20.337Z', 'updatedAt': '2025-01-21T11:07:20.739Z', '__v': 0}}\n\nutils/helper.py:13: AssertionError",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1737457639455,
+        "stop" : 1737457640014,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9ce23444802f2a0",
+        "name" : "API Response",
+        "source" : "a9ce23444802f2a0.json",
+        "type" : "application/json",
+        "size" : 520
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Create a new task.",
+      "time" : {
+        "start" : 1737457640014,
+        "stop" : 1737457640419,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7335c201c31b7c0c",
+        "name" : "API Response",
+        "source" : "7335c201c31b7c0c.json",
+        "type" : "application/json",
+        "size" : 353
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmU3NmViMTI0NDRmMmI0NmFkNSIsImlhdCI6MTczNzQ1NzYzOSwiZXhwIjoxNzM3NDYxMjM5fQ.A7yDvdl95E1z8YPsIuJG4VVyhEuAdYYKNrA5nwTV8SM'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Update an existing task with an invalid category.",
+      "time" : {
+        "start" : 1737457640420,
+        "stop" : 1737457640826,
+        "duration" : 406
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe86eb12444f2b46ad9', 'title': 'Dream family.', 'start': '06:40:27', 'end': '14:44:47', 'priority': 'low', 'category': 'drop', 'owner': '678f7fe76eb12444f2b46ad5', 'date': '2025-01-16T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:20.337Z', 'updatedAt': '2025-01-21T11:07:20.739Z', '__v': 0}}\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.11/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/usr/workspace/services/Task/api_task.py\", line 172, in update_task_with_invalid_category\n    self.assert_status(response, 400)\n  File \"/usr/workspace/utils/helper.py\", line 13, in assert_status\n    assert response.status_code == expected_status, \\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmU3NmViMTI0NDRmMmI0NmFkNSIsImlhdCI6MTczNzQ1NzYzOSwiZXhwIjoxNzM3NDYxMjM5fQ.A7yDvdl95E1z8YPsIuJG4VVyhEuAdYYKNrA5nwTV8SM'"
+      }, {
+        "name" : "task_id",
+        "value" : "'678f7fe86eb12444f2b46ad9'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement::0",
+    "time" : {
+      "start" : 1737457640834,
+      "stop" : 1737457640834,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Task Management"
+  }, {
+    "name" : "tag",
+    "value" : "order(34)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskManagement"
+  }, {
+    "name" : "host",
+    "value" : "1f5fb87e8191"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_task_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "466e0a0f8981847c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57826eb12444f2b46a08', 'title': 'Me notice.', 'start': '09:36:26', 'end': '15:48:11', 'priority': 'medium', 'category': 'dinner', 'owner': '678e57826eb12444f2b46a04', 'date': '2025-01-09T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:42.531Z', 'updatedAt': '2025-01-20T14:02:42.891Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737381761750,
+          "stop" : 1737381762971,
+          "duration" : 1221
+        }
+      }, {
+        "uid" : "7d59248d71906a35",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cbd6eb12444f2b46937', 'title': 'About hair continue.', 'start': '03:10:50', 'end': '16:32:00', 'priority': 'medium', 'category': 'position', 'owner': '678e4cbc6eb12444f2b46933', 'date': '2025-01-17T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:45.227Z', 'updatedAt': '2025-01-20T13:16:45.726Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737379004209,
+          "stop" : 1737379005838,
+          "duration" : 1629
+        }
+      }, {
+        "uid" : "7b899c7367be6c5c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e49fd6eb12444f2b46863', 'title': 'Above moment.', 'start': '05:51:53', 'end': '02:03:04', 'priority': 'low', 'category': 'to', 'owner': '678e49fd6eb12444f2b4685f', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-20T13:05:01.751Z', 'updatedAt': '2025-01-20T13:05:01.929Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737378300986,
+          "stop" : 1737378301656,
+          "duration" : 670
+        }
+      } ]
+    },
+    "tags" : [ "order(34)" ]
+  },
+  "source" : "8ce1078132bc300b.json",
+  "parameterValues" : [ ]
+}

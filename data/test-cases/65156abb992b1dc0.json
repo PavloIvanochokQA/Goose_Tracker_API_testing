@@ -1,0 +1,224 @@
+{
+  "uid" : "65156abb992b1dc0",
+  "name" : "T30: Update an existing task with valid data.",
+  "fullName" : "tests.test_task_management.TestTaskManagement#test_update_task",
+  "historyId" : "4258e47ad96ff28f8c2ff842d3d7ac1f",
+  "time" : {
+    "start" : 1737457634056,
+    "stop" : 1737457635399,
+    "duration" : 1343
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement",
+    "time" : {
+      "start" : 1737457634056,
+      "stop" : 1737457634056,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1737457612203,
+      "stop" : 1737457612205,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1737457634056,
+        "stop" : 1737457634590,
+        "duration" : 534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19bf3323a3883da5",
+        "name" : "API Response",
+        "source" : "19bf3323a3883da5.json",
+        "type" : "application/json",
+        "size" : 515
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Create a new task.",
+      "time" : {
+        "start" : 1737457634590,
+        "stop" : 1737457634999,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fdfebf41ea8a47ba",
+        "name" : "API Response",
+        "source" : "fdfebf41ea8a47ba.json",
+        "type" : "application/json",
+        "size" : 368
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmUyNmViMTI0NDRmMmI0NmFiMSIsImlhdCI6MTczNzQ1NzYzNCwiZXhwIjoxNzM3NDYxMjM0fQ.daF634Gp_jvW2FxKU4omxLxWPz8whekaV7VOLRfFNsU'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Update an existing task with valid data.",
+      "time" : {
+        "start" : 1737457635000,
+        "stop" : 1737457635399,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95db253f580f20e8",
+        "name" : "API Response",
+        "source" : "95db253f580f20e8.json",
+        "type" : "application/json",
+        "size" : 451
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmUyNmViMTI0NDRmMmI0NmFiMSIsImlhdCI6MTczNzQ1NzYzNCwiZXhwIjoxNzM3NDYxMjM0fQ.daF634Gp_jvW2FxKU4omxLxWPz8whekaV7VOLRfFNsU'"
+      }, {
+        "name" : "task_id",
+        "value" : "'678f7fe26eb12444f2b46ab5'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement::0",
+    "time" : {
+      "start" : 1737457635400,
+      "stop" : 1737457635400,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Task Management"
+  }, {
+    "name" : "tag",
+    "value" : "order(30)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskManagement"
+  }, {
+    "name" : "host",
+    "value" : "1f5fb87e8191"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_task_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "36012757748bab50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737381756694,
+          "stop" : 1737381758096,
+          "duration" : 1402
+        }
+      }, {
+        "uid" : "23c6d51c34038a65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378997706,
+          "stop" : 1737378999318,
+          "duration" : 1612
+        }
+      }, {
+        "uid" : "7291755e4331200b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378298212,
+          "stop" : 1737378298901,
+          "duration" : 689
+        }
+      } ]
+    },
+    "tags" : [ "order(30)" ]
+  },
+  "source" : "65156abb992b1dc0.json",
+  "parameterValues" : [ ]
+}

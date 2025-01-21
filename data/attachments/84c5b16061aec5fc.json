@@ -1,0 +1,29 @@
+{
+    "success": false,
+    "error": {
+        "errors": {
+            "priority": {
+                "name": "ValidatorError",
+                "message": "`office` is not a valid enum value for path `priority`.",
+                "properties": {
+                    "message": "`office` is not a valid enum value for path `priority`.",
+                    "type": "enum",
+                    "enumValues": [
+                        "low",
+                        "medium",
+                        "high"
+                    ],
+                    "path": "priority",
+                    "value": "office"
+                },
+                "kind": "enum",
+                "path": "priority",
+                "value": "office"
+            }
+        },
+        "_message": "Notice validation failed",
+        "name": "ValidationError",
+        "message": "Notice validation failed: priority: `office` is not a valid enum value for path `priority`."
+    },
+    "message": "Notice validation failed: priority: `office` is not a valid enum value for path `priority`."
+}

@@ -3,158 +3,175 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678e57736eb12444f2b4699e', 'name': '', 'email': 'atkinsmichael@example.com', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1NzczNmViMTI0NDRmMmI0Njk5ZSIsImlhdCI6MTczNzM4MTc0NywiZXhwIjoxNzM3Mzg1MzQ3fQ.jEkBA6rnbXWSs37FhxP5SexLsCEN6cnwuqv4P4LXQu4', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1NzczNmViMTI0NDRmMmI0Njk5ZSIsImlhdCI6MTczNzM4MTc0NywiZXhwIjoxNzM5OTczNzQ3fQ.t_UUsD3aNDyLGiwDlO-O4b2LoUtPL1T6OqLLk_MTuDA', 'phone': '(957)830-5351x52687', 'birthday': '2009-07-31', 'skype': 'matthew94', 'userImgUrl': 'https://dummyimage.com/474x772', 'userTasks': []}",
+      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678f7fd86eb12444f2b46a72', 'name': '', 'email': 'meyerbrianna@example.net', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmQ4NmViMTI0NDRmMmI0NmE3MiIsImlhdCI6MTczNzQ1NzYyNCwiZXhwIjoxNzM3NDYxMjI0fQ.oejZkuioIdmaD6fTVIyPO1q2Fm-CQA6EjPytbQvk_JQ', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmQ4NmViMTI0NDRmMmI0NmE3MiIsImlhdCI6MTczNzQ1NzYyNCwiZXhwIjoxNzQwMDQ5NjI0fQ.PN1L0m5pT_4JROVoJR7lwIDIDbFCFAqOHsADBi3ZQIw', 'phone': '580.212.1874x61307', 'birthday': '1911-01-12', 'skype': 'christopher96', 'userImgUrl': 'https://picsum.photos/173/350', 'userTasks': []}",
       "children" : [ {
         "name" : "T19: Update user info with an empty name.",
-        "uid" : "802c5236d387894b",
-        "parentUid" : "56fe11c3383882752470652b4c5ce812",
+        "uid" : "dd99d7a7266d4d59",
+        "parentUid" : "849a192a330efc20d77b982f5f2570da",
         "status" : "failed",
         "time" : {
-          "start" : 1737381747254,
-          "stop" : 1737381748139,
-          "duration" : 885
+          "start" : 1737457624267,
+          "stop" : 1737457625233,
+          "duration" : 966
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "56fe11c3383882752470652b4c5ce812"
+      "uid" : "849a192a330efc20d77b982f5f2570da"
     }, {
-      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678e57746eb12444f2b469a5', 'name': 'Thomas', 'email': 'raymondelizabeth', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1Nzc0NmViMTI0NDRmMmI0NjlhNSIsImlhdCI6MTczNzM4MTc0OCwiZXhwIjoxNzM3Mzg1MzQ4fQ.-igAeJEKTBEpzZpIYI9P5cYHTU3a60vMpWhrbFGINVY', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGU1Nzc0NmViMTI0NDRmMmI0NjlhNSIsImlhdCI6MTczNzM4MTc0OCwiZXhwIjoxNzM5OTczNzQ4fQ.bVvjF1NlqNw5ufMlJHC-bhydSC5M5Ushvs3iw9XONho', 'phone': '001-902-352-1198x91031', 'birthday': '1950-06-09', 'skype': 'richardsonrobert', 'userImgUrl': 'https://placekitten.com/883/573', 'userTasks': []}",
+      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'_id': '678f7fd96eb12444f2b46a79', 'name': 'Erik', 'email': 'cosborn', 'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmQ5NmViMTI0NDRmMmI0NmE3OSIsImlhdCI6MTczNzQ1NzYyNSwiZXhwIjoxNzM3NDYxMjI1fQ.3wBJioghO8sbcDdbynpnD9SIJsIIA2jq2TlEDGQWVYk', 'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY3ZmQ5NmViMTI0NDRmMmI0NmE3OSIsImlhdCI6MTczNzQ1NzYyNSwiZXhwIjoxNzQwMDQ5NjI1fQ.HG2Z0V6qxXVxLgSKQJlYCKlhFvpqtpSeu9hU6VYg6VY', 'phone': '(236)836-3414x979', 'birthday': '1976-02-13', 'skype': 'crystalsanders', 'userImgUrl': 'https://picsum.photos/730/190', 'userTasks': []}",
       "children" : [ {
         "name" : "T20: Update user info with an invalid email.",
-        "uid" : "b08292408535c703",
-        "parentUid" : "378ae90bc92bf1d8d0f62bd8dcaab823",
+        "uid" : "d0f3101d2fe13d46",
+        "parentUid" : "167446dbde046c1023e70c0e8749fb7f",
         "status" : "failed",
         "time" : {
-          "start" : 1737381748177,
-          "stop" : 1737381749058,
-          "duration" : 881
+          "start" : 1737457625270,
+          "stop" : 1737457626280,
+          "duration" : 1010
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "378ae90bc92bf1d8d0f62bd8dcaab823"
+      "uid" : "167446dbde046c1023e70c0e8749fb7f"
     }, {
-      "name" : "AssertionError: Expected status code 400, but got 201. Response: {'title': 'Area other hard difference.', 'start': 'area', 'end': 'trial', 'priority': 'low', 'category': 'to-do', 'owner': '678e577b6eb12444f2b469d3', 'date': '2025-01-14T00:00:00.000Z', '_id': '678e577b6eb12444f2b469d7', 'createdAt': '2025-01-20T14:02:35.771Z', 'updatedAt': '2025-01-20T14:02:35.771Z', '__v': 0}",
+      "name" : "AssertionError: Expected status code 201, but got 409. Response: {'success': False, 'message': 'User with email sean05@example.com already exist'}",
+      "children" : [ {
+        "name" : "T26: Create a task with an invalid category.",
+        "uid" : "a29ece1fbbbb2bab",
+        "parentUid" : "82fca4c1ab9d65399d4ddbea612715b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737457630882,
+          "stop" : 1737457631261,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82fca4c1ab9d65399d4ddbea612715b7"
+    }, {
+      "name" : "AssertionError: Expected status code 400, but got 201. Response: {'title': 'Father probably.', 'start': 'particular', 'end': 'choice', 'priority': 'low', 'category': 'done', 'owner': '678f7fe06eb12444f2b46aa4', 'date': '2025-01-01T00:00:00.000Z', '_id': '678f7fe16eb12444f2b46aa8', 'createdAt': '2025-01-21T11:07:13.048Z', 'updatedAt': '2025-01-21T11:07:13.048Z', '__v': 0}",
       "children" : [ {
         "name" : "T28: Create a task with an invalid time.",
-        "uid" : "a807af2c4c3d02be",
-        "parentUid" : "e1601a8ba46da8ae0ea8f0c0e6f4d27b",
+        "uid" : "338da8baf907c96b",
+        "parentUid" : "8c4cae10457b3ad1f8ea9143e262bfb6",
         "status" : "failed",
         "time" : {
-          "start" : 1737381754986,
-          "stop" : 1737381755849,
-          "duration" : 863
+          "start" : 1737457632195,
+          "stop" : 1737457633135,
+          "duration" : 940
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e1601a8ba46da8ae0ea8f0c0e6f4d27b"
+      "uid" : "8c4cae10457b3ad1f8ea9143e262bfb6"
     }, {
-      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e577e6eb12444f2b469ed', 'title': '', 'start': '19:46:07', 'end': '11:42:49', 'priority': 'high', 'category': 'to-do', 'owner': '678e577e6eb12444f2b469e9', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:38.867Z', 'updatedAt': '2025-01-20T14:02:39.224Z', '__v': 0}}",
+      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe46eb12444f2b46abe', 'title': '', 'start': '01:16:27', 'end': '07:56:33', 'priority': 'medium', 'category': 'in-progress', 'owner': '678f7fe36eb12444f2b46aba', 'date': '2025-01-10T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:16.252Z', 'updatedAt': '2025-01-21T11:07:16.655Z', '__v': 0}}",
       "children" : [ {
         "name" : "T31: Update an existing task with an empty title.",
-        "uid" : "7cea9747616a52b0",
-        "parentUid" : "1470950c82b092d45b094514d8a9708f",
+        "uid" : "b2574d954882fbe3",
+        "parentUid" : "cb84eb89db38b950f9d3a217322ce636",
         "status" : "failed",
         "time" : {
-          "start" : 1737381758098,
-          "stop" : 1737381759303,
-          "duration" : 1205
+          "start" : 1737457635401,
+          "stop" : 1737457636738,
+          "duration" : 1337
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1470950c82b092d45b094514d8a9708f"
+      "uid" : "cb84eb89db38b950f9d3a217322ce636"
     }, {
-      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57806eb12444f2b469f6', 'title': 'Spend personal claim.', 'start': 'will', 'end': 'tend', 'priority': 'low', 'category': 'in-progress', 'owner': '678e577f6eb12444f2b469f2', 'date': '2025-01-02T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:40.083Z', 'updatedAt': '2025-01-20T14:02:40.441Z', '__v': 0}}",
+      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe56eb12444f2b46ac7', 'title': 'Smile however drop.', 'start': 'radio', 'end': 'financial', 'priority': 'high', 'category': 'to-do', 'owner': '678f7fe56eb12444f2b46ac3', 'date': '2025-01-07T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:17.612Z', 'updatedAt': '2025-01-21T11:07:18.012Z', '__v': 0}}",
       "children" : [ {
         "name" : "T32: Update an existing task with an invalid time.",
-        "uid" : "d994b9668f0f8c4",
-        "parentUid" : "50b8c48b69fe8fa29eb560d6a5b1f99e",
+        "uid" : "7c8104b586d6e7d9",
+        "parentUid" : "1f10f40f8484d2de289fd6b59fc9ec7e",
         "status" : "failed",
         "time" : {
-          "start" : 1737381759312,
-          "stop" : 1737381760520,
-          "duration" : 1208
+          "start" : 1737457636746,
+          "stop" : 1737457638097,
+          "duration" : 1351
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "50b8c48b69fe8fa29eb560d6a5b1f99e"
+      "uid" : "1f10f40f8484d2de289fd6b59fc9ec7e"
     }, {
-      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57816eb12444f2b469ff', 'title': 'Note sea lay.', 'start': '15:51:25', 'end': '16:38:30', 'priority': 'back', 'category': 'done', 'owner': '678e57806eb12444f2b469fb', 'date': '2025-01-11T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:41.303Z', 'updatedAt': '2025-01-20T14:02:41.663Z', '__v': 0}}",
+      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe66eb12444f2b46ad0', 'title': 'In.', 'start': '01:00:54', 'end': '13:17:15', 'priority': 'pressure', 'category': 'to-do', 'owner': '678f7fe66eb12444f2b46acc', 'date': '2025-01-01T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:18.962Z', 'updatedAt': '2025-01-21T11:07:19.365Z', '__v': 0}}",
       "children" : [ {
         "name" : "T33: Update an existing task with an invalid priority.",
-        "uid" : "fc3d53f4cb7357ed",
-        "parentUid" : "b934e7fb7a42628cf11b33ff4ba73c0f",
+        "uid" : "b6c88dca8d732f4d",
+        "parentUid" : "919031b44cb34310497ad2fa4ada4b73",
         "status" : "failed",
         "time" : {
-          "start" : 1737381760528,
-          "stop" : 1737381761741,
-          "duration" : 1213
+          "start" : 1737457638106,
+          "stop" : 1737457639447,
+          "duration" : 1341
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b934e7fb7a42628cf11b33ff4ba73c0f"
+      "uid" : "919031b44cb34310497ad2fa4ada4b73"
     }, {
-      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57826eb12444f2b46a08', 'title': 'Me notice.', 'start': '09:36:26', 'end': '15:48:11', 'priority': 'medium', 'category': 'dinner', 'owner': '678e57826eb12444f2b46a04', 'date': '2025-01-09T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:42.531Z', 'updatedAt': '2025-01-20T14:02:42.891Z', '__v': 0}}",
+      "name" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe86eb12444f2b46ad9', 'title': 'Dream family.', 'start': '06:40:27', 'end': '14:44:47', 'priority': 'low', 'category': 'drop', 'owner': '678f7fe76eb12444f2b46ad5', 'date': '2025-01-16T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:20.337Z', 'updatedAt': '2025-01-21T11:07:20.739Z', '__v': 0}}",
       "children" : [ {
         "name" : "T34: Update an existing task with an invalid category.",
-        "uid" : "466e0a0f8981847c",
-        "parentUid" : "6a627c7a675057dc0ebc6046e23b681a",
+        "uid" : "8ce1078132bc300b",
+        "parentUid" : "7917a244b956879fe731180c654f0596",
         "status" : "failed",
         "time" : {
-          "start" : 1737381761750,
-          "stop" : 1737381762971,
-          "duration" : 1221
+          "start" : 1737457639455,
+          "stop" : 1737457640826,
+          "duration" : 1371
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6a627c7a675057dc0ebc6046e23b681a"
+      "uid" : "7917a244b956879fe731180c654f0596"
     }, {
-      "name" : "AssertionError: Expected status code 401, but got 200. Response: {'_id': '678e57866eb12444f2b46a25', 'title': 'Theory stand writer.', 'start': '12:11:41', 'end': '00:42:01', 'priority': 'low', 'category': 'to-do', 'owner': '678e57866eb12444f2b46a21', 'date': '2025-01-13T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:46.541Z', 'updatedAt': '2025-01-20T14:02:46.541Z', '__v': 0}",
+      "name" : "AssertionError: Expected status code 401, but got 200. Response: {'_id': '678f7fec6eb12444f2b46af6', 'title': 'Claim.', 'start': '02:53:37', 'end': '00:44:05', 'priority': 'low', 'category': 'in-progress', 'owner': '678f7fec6eb12444f2b46af2', 'date': '2025-01-10T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:24.780Z', 'updatedAt': '2025-01-21T11:07:24.780Z', '__v': 0}",
       "children" : [ {
         "name" : "T37: Attempt to delete another user's task.",
-        "uid" : "e9e2ea149792cef5",
-        "parentUid" : "992d36a129866b61ce31e0ec2106c235",
+        "uid" : "3be87e6989ba5397",
+        "parentUid" : "fc19aec08f3a79d91bd080dd24074c0f",
         "status" : "failed",
         "time" : {
-          "start" : 1737381765758,
-          "stop" : 1737381767439,
-          "duration" : 1681
+          "start" : 1737457643922,
+          "stop" : 1737457645790,
+          "duration" : 1868
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "992d36a129866b61ce31e0ec2106c235"
+      "uid" : "fc19aec08f3a79d91bd080dd24074c0f"
     }, {
-      "name" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57886eb12444f2b46a30', 'title': 'Table traditional building.', 'start': '00:39:00', 'end': '23:41:02', 'priority': 'high', 'category': 'in-progress', 'owner': '678e57876eb12444f2b46a2c', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:48.231Z', 'updatedAt': '2025-01-20T14:02:49.050Z', '__v': 0}}",
+      "name" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fee6eb12444f2b46b01', 'title': 'Very plant system.', 'start': '13:26:18', 'end': '05:22:02', 'priority': 'medium', 'category': 'in-progress', 'owner': '678f7fee6eb12444f2b46afd', 'date': '2025-01-18T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:26.652Z', 'updatedAt': '2025-01-21T11:07:27.568Z', '__v': 0}}",
       "children" : [ {
         "name" : "T38: Attempt to update a task that belongs to another user.",
-        "uid" : "c0d711eeacb0e9ce",
-        "parentUid" : "13f1fda5204de4c3db2f552538fa0835",
+        "uid" : "91428735476e8a30",
+        "parentUid" : "381475653320b77ceec686eac2431c20",
         "status" : "failed",
         "time" : {
-          "start" : 1737381767448,
-          "stop" : 1737381769131,
-          "duration" : 1683
+          "start" : 1737457645798,
+          "stop" : 1737457647652,
+          "duration" : 1854
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "13f1fda5204de4c3db2f552538fa0835"
+      "uid" : "381475653320b77ceec686eac2431c20"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
