@@ -1,0 +1,261 @@
+{
+  "uid" : "759cc4ac262b5838",
+  "name" : "T38: Attempt to update a task that belongs to another user.",
+  "fullName" : "tests.test_task_management.TestTaskManagement#test_update_another_user_task",
+  "historyId" : "587504d47a5da5c6624bbcfa72245337",
+  "time" : {
+    "start" : 1737465006817,
+    "stop" : 1737465008476,
+    "duration" : 1659
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678f9caf6eb12444f2b46bd5', 'title': 'Such live leg.', 'start': '08:06:08', 'end': '16:18:15', 'priority': 'low', 'category': 'to-do', 'owner': '678f9caf6eb12444f2b46bd1', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-21T13:10:07.583Z', 'updatedAt': '2025-01-21T13:10:08.400Z', '__v': 0}}",
+  "statusTrace" : "self = <test_task_management.TestTaskManagement object at 0x7f6203b92d50>\n\n    @pytest.mark.order(38)\n    @allure.title(\"T38: Attempt to update a task that belongs to another user.\")\n    def test_update_another_user_task(self):\n        new_user = self.api_user_auth.create_user()\n        task = self.api_task.create_task(Token=new_user.data.accessToken)\n        user = self.api_user_auth.login()\n>       self.api_task.update_another_user_task(Token=user.data.accessToken, task_id=task.id)\n\ntests/test_task_management.py:121: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/Task/api_task.py:217: in update_another_user_task\n    self.assert_status(response, 401)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.Task.api_task.TaskAPI object at 0x7f61ff992010>\nresponse = <Response [200]>, expected_status = 401\n\n    def assert_status(self, response, expected_status):\n>       assert response.status_code == expected_status, \\\n            (f\"Expected status code {expected_status}, but got {response.status_code}. Response: {response.json()}\")\nE       AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678f9caf6eb12444f2b46bd5', 'title': 'Such live leg.', 'start': '08:06:08', 'end': '16:18:15', 'priority': 'low', 'category': 'to-do', 'owner': '678f9caf6eb12444f2b46bd1', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-21T13:10:07.583Z', 'updatedAt': '2025-01-21T13:10:08.400Z', '__v': 0}}\n\nutils/helper.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1737464975679,
+      "stop" : 1737464975681,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement",
+    "time" : {
+      "start" : 1737465006816,
+      "stop" : 1737465006816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678f9caf6eb12444f2b46bd5', 'title': 'Such live leg.', 'start': '08:06:08', 'end': '16:18:15', 'priority': 'low', 'category': 'to-do', 'owner': '678f9caf6eb12444f2b46bd1', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-21T13:10:07.583Z', 'updatedAt': '2025-01-21T13:10:08.400Z', '__v': 0}}",
+    "statusTrace" : "self = <test_task_management.TestTaskManagement object at 0x7f6203b92d50>\n\n    @pytest.mark.order(38)\n    @allure.title(\"T38: Attempt to update a task that belongs to another user.\")\n    def test_update_another_user_task(self):\n        new_user = self.api_user_auth.create_user()\n        task = self.api_task.create_task(Token=new_user.data.accessToken)\n        user = self.api_user_auth.login()\n>       self.api_task.update_another_user_task(Token=user.data.accessToken, task_id=task.id)\n\ntests/test_task_management.py:121: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/Task/api_task.py:217: in update_another_user_task\n    self.assert_status(response, 401)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.Task.api_task.TaskAPI object at 0x7f61ff992010>\nresponse = <Response [200]>, expected_status = 401\n\n    def assert_status(self, response, expected_status):\n>       assert response.status_code == expected_status, \\\n            (f\"Expected status code {expected_status}, but got {response.status_code}. Response: {response.json()}\")\nE       AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678f9caf6eb12444f2b46bd5', 'title': 'Such live leg.', 'start': '08:06:08', 'end': '16:18:15', 'priority': 'low', 'category': 'to-do', 'owner': '678f9caf6eb12444f2b46bd1', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-21T13:10:07.583Z', 'updatedAt': '2025-01-21T13:10:08.400Z', '__v': 0}}\n\nutils/helper.py:13: AssertionError",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1737465006817,
+        "stop" : 1737465007299,
+        "duration" : 482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7da371bc0b2a445",
+        "name" : "API Response",
+        "source" : "b7da371bc0b2a445.json",
+        "type" : "application/json",
+        "size" : 519
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Create a new task.",
+      "time" : {
+        "start" : 1737465007299,
+        "stop" : 1737465007658,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31a93db65e7ed530",
+        "name" : "API Response",
+        "source" : "31a93db65e7ed530.json",
+        "type" : "application/json",
+        "size" : 353
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY5Y2FmNmViMTI0NDRmMmI0NmJkMSIsImlhdCI6MTczNzQ2NTAwNywiZXhwIjoxNzM3NDY4NjA3fQ.kV2vblNqIABP_XCWvwGiqfxzZb8QPoGnF9Px383Pr-Y'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Log in.",
+      "time" : {
+        "start" : 1737465007658,
+        "stop" : 1737465008121,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d1e651af76962d5",
+        "name" : "API Response",
+        "source" : "9d1e651af76962d5.json",
+        "type" : "application/json",
+        "size" : 522
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Update another user's task.",
+      "time" : {
+        "start" : 1737465008121,
+        "stop" : 1737465008476,
+        "duration" : 355
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678f9caf6eb12444f2b46bd5', 'title': 'Such live leg.', 'start': '08:06:08', 'end': '16:18:15', 'priority': 'low', 'category': 'to-do', 'owner': '678f9caf6eb12444f2b46bd1', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-21T13:10:07.583Z', 'updatedAt': '2025-01-21T13:10:08.400Z', '__v': 0}}\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.11/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/usr/workspace/services/Task/api_task.py\", line 217, in update_another_user_task\n    self.assert_status(response, 401)\n  File \"/usr/workspace/utils/helper.py\", line 13, in assert_status\n    assert response.status_code == expected_status, \\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3N2ZjYjIxNmViMTI0NDRmMmI0MmU5MSIsImlhdCI6MTczNzQ2NTAwOCwiZXhwIjoxNzM3NDY4NjA4fQ.IEfaJsPYdIhbfaIfFiKYRrDMNzMKKVVEDnv_yCEaYJI'"
+      }, {
+        "name" : "task_id",
+        "value" : "'678f9caf6eb12444f2b46bd5'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement::0",
+    "time" : {
+      "start" : 1737465008483,
+      "stop" : 1737465008483,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Task Management"
+  }, {
+    "name" : "tag",
+    "value" : "order(38)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskManagement"
+  }, {
+    "name" : "host",
+    "value" : "bff7c49b8363"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_task_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "91428735476e8a30",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fee6eb12444f2b46b01', 'title': 'Very plant system.', 'start': '13:26:18', 'end': '05:22:02', 'priority': 'medium', 'category': 'in-progress', 'owner': '678f7fee6eb12444f2b46afd', 'date': '2025-01-18T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:26.652Z', 'updatedAt': '2025-01-21T11:07:27.568Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737457645798,
+          "stop" : 1737457647652,
+          "duration" : 1854
+        }
+      }, {
+        "uid" : "c0d711eeacb0e9ce",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57886eb12444f2b46a30', 'title': 'Table traditional building.', 'start': '00:39:00', 'end': '23:41:02', 'priority': 'high', 'category': 'in-progress', 'owner': '678e57876eb12444f2b46a2c', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:48.231Z', 'updatedAt': '2025-01-20T14:02:49.050Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737381767448,
+          "stop" : 1737381769131,
+          "duration" : 1683
+        }
+      }, {
+        "uid" : "29c0c83174878aa6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cc46eb12444f2b4695f', 'title': 'If mouth.', 'start': '03:49:23', 'end': '07:23:39', 'priority': 'high', 'category': 'to-do', 'owner': '678e4cc46eb12444f2b4695b', 'date': '2025-01-15T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:52.771Z', 'updatedAt': '2025-01-20T13:16:53.918Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737379011756,
+          "stop" : 1737379014021,
+          "duration" : 2265
+        }
+      }, {
+        "uid" : "500a4cdc40575954",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 401, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4a016eb12444f2b4688b', 'title': 'Wide hour forward.', 'start': '17:43:39', 'end': '09:23:27', 'priority': 'low', 'category': 'done', 'owner': '678e4a006eb12444f2b46887', 'date': '2025-01-15T00:00:00.000Z', 'createdAt': '2025-01-20T13:05:05.083Z', 'updatedAt': '2025-01-20T13:05:05.546Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737378304296,
+          "stop" : 1737378305272,
+          "duration" : 976
+        }
+      } ]
+    },
+    "tags" : [ "order(38)" ]
+  },
+  "source" : "759cc4ac262b5838.json",
+  "parameterValues" : [ ]
+}

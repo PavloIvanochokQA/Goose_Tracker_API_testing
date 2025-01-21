@@ -4,10 +4,10 @@
     "uid" : "9c7355fef447bf6b610f79ed1de62b89",
     "name" : "Task Management",
     "statistic" : {
-      "failed" : 8,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
       "total" : 17
     }

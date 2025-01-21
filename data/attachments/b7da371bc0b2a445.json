@@ -1,0 +1,9 @@
+{
+    "id": "678f9caf6eb12444f2b46bd1",
+    "name": "Brian",
+    "email": "gregcalderon@example.net",
+    "data": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY5Y2FmNmViMTI0NDRmMmI0NmJkMSIsImlhdCI6MTczNzQ2NTAwNywiZXhwIjoxNzM3NDY4NjA3fQ.kV2vblNqIABP_XCWvwGiqfxzZb8QPoGnF9Px383Pr-Y",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY5Y2FmNmViMTI0NDRmMmI0NmJkMSIsImlhdCI6MTczNzQ2NTAwNywiZXhwIjoxNzQwMDU3MDA3fQ.oFgE3xJxpdVRE1OG8RqEDyb_0J-9cXFXiLcn3DRNrtE"
+    }
+}

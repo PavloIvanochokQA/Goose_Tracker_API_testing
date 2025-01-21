@@ -1,0 +1,29 @@
+{
+    "success": false,
+    "error": {
+        "errors": {
+            "priority": {
+                "name": "ValidatorError",
+                "message": "`plant` is not a valid enum value for path `priority`.",
+                "properties": {
+                    "message": "`plant` is not a valid enum value for path `priority`.",
+                    "type": "enum",
+                    "enumValues": [
+                        "low",
+                        "medium",
+                        "high"
+                    ],
+                    "path": "priority",
+                    "value": "plant"
+                },
+                "kind": "enum",
+                "path": "priority",
+                "value": "plant"
+            }
+        },
+        "_message": "Notice validation failed",
+        "name": "ValidationError",
+        "message": "Notice validation failed: priority: `plant` is not a valid enum value for path `priority`."
+    },
+    "message": "Notice validation failed: priority: `plant` is not a valid enum value for path `priority`."
+}

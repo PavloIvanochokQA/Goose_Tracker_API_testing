@@ -1,0 +1,12 @@
+{
+    "_id": "678f9c976eb12444f2b46b32",
+    "name": "Angel",
+    "email": "lschwartz@example.net",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY5Yzk3NmViMTI0NDRmMmI0NmIzMiIsImlhdCI6MTczNzQ2NDk4NCwiZXhwIjoxNzM3NDY4NTg0fQ.TSfvOcKqPODQ2-IypUu3m1KUN7DmHBaEA0fkncWZ50M",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGY5Yzk3NmViMTI0NDRmMmI0NmIzMiIsImlhdCI6MTczNzQ2NDk4NCwiZXhwIjoxNzQwMDU2OTg0fQ.IX1OVXKXwN7PUK1uMeP36K96CvKMz_o81nnWAySS7ms",
+    "phone": null,
+    "birthday": null,
+    "skype": null,
+    "userImgUrl": null,
+    "__v": 0
+}
