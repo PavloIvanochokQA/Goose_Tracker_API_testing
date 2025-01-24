@@ -1,0 +1,189 @@
+{
+  "uid" : "1c9f0a06102409a5",
+  "name" : "T08: Log in with valid email and password.",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_login",
+  "historyId" : "ff5cd6b666dc545ceb0ff80d5232b312",
+  "time" : {
+    "start" : 1737733802695,
+    "stop" : 1737733803162,
+    "duration" : 467
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1737733802695,
+      "stop" : 1737733802695,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1737733799030,
+      "stop" : 1737733799031,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in.",
+      "time" : {
+        "start" : 1737733802695,
+        "stop" : 1737733803162,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77bd4bde2af448fc",
+        "name" : "API Response",
+        "source" : "77bd4bde2af448fc.json",
+        "type" : "application/json",
+        "size" : 522
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1737733803162,
+      "stop" : 1737733803162,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User Authentication"
+  }, {
+    "name" : "tag",
+    "value" : "order(8)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "d0df6cd88b67"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "f99e0102fe169392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737464979006,
+          "stop" : 1737464979477,
+          "duration" : 471
+        }
+      }, {
+        "uid" : "19dfa2c4a249e771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737457616192,
+          "stop" : 1737457616697,
+          "duration" : 505
+        }
+      }, {
+        "uid" : "d88456f0a9314371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737381740097,
+          "stop" : 1737381740575,
+          "duration" : 478
+        }
+      }, {
+        "uid" : "ae463dca60b7d71a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378975988,
+          "stop" : 1737378976812,
+          "duration" : 824
+        }
+      }, {
+        "uid" : "29abc0fc47bba410",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378288767,
+          "stop" : 1737378289047,
+          "duration" : 280
+        }
+      } ]
+    },
+    "tags" : [ "order(8)" ]
+  },
+  "source" : "1c9f0a06102409a5.json",
+  "parameterValues" : [ ]
+}

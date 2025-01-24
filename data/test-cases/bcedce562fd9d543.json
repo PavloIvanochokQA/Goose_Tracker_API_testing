@@ -1,0 +1,267 @@
+{
+  "uid" : "bcedce562fd9d543",
+  "name" : "T36: Delete a task that has already been deleted.",
+  "fullName" : "tests.test_task_management.TestTaskManagement#test_delete_already_deleted_task",
+  "historyId" : "730ecc70842f5c27536dfd8824ce3f05",
+  "time" : {
+    "start" : 1737733826702,
+    "stop" : 1737733828275,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement",
+    "time" : {
+      "start" : 1737733826702,
+      "stop" : 1737733826702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1737733799030,
+      "stop" : 1737733799031,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1737733826702,
+        "stop" : 1737733827190,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1604d6197909134",
+        "name" : "API Response",
+        "source" : "1604d6197909134.json",
+        "type" : "application/json",
+        "size" : 520
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Create a new task.",
+      "time" : {
+        "start" : 1737733827191,
+        "stop" : 1737733827547,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a20943c36198c23",
+        "name" : "API Response",
+        "source" : "3a20943c36198c23.json",
+        "type" : "application/json",
+        "size" : 365
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTNiNmMyNmViMTI0NDRmMmI0NmM4ZiIsImlhdCI6MTczNzczMzgyNywiZXhwIjoxNzM3NzM3NDI3fQ.erg7FbZycMaMLtBpIb90n0AkYwIUKnc6XjOn-HJHPtc'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Delete a task.",
+      "time" : {
+        "start" : 1737733827547,
+        "stop" : 1737733827901,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "827604af42d3baba",
+        "name" : "API Response",
+        "source" : "827604af42d3baba.json",
+        "type" : "application/json",
+        "size" : 365
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTNiNmMyNmViMTI0NDRmMmI0NmM4ZiIsImlhdCI6MTczNzczMzgyNywiZXhwIjoxNzM3NzM3NDI3fQ.erg7FbZycMaMLtBpIb90n0AkYwIUKnc6XjOn-HJHPtc'"
+      }, {
+        "name" : "task_id",
+        "value" : "'6793b6c36eb12444f2b46c93'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Delete already deleted task.",
+      "time" : {
+        "start" : 1737733827901,
+        "stop" : 1737733828275,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5be92bbdde005181",
+        "name" : "API Response",
+        "source" : "5be92bbdde005181.json",
+        "type" : "application/json",
+        "size" : 72
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTNiNmMyNmViMTI0NDRmMmI0NmM4ZiIsImlhdCI6MTczNzczMzgyNywiZXhwIjoxNzM3NzM3NDI3fQ.erg7FbZycMaMLtBpIb90n0AkYwIUKnc6XjOn-HJHPtc'"
+      }, {
+        "name" : "task_id",
+        "value" : "'6793b6c36eb12444f2b46c93'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement::0",
+    "time" : {
+      "start" : 1737733828276,
+      "stop" : 1737733828276,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Task Management"
+  }, {
+    "name" : "tag",
+    "value" : "order(36)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskManagement"
+  }, {
+    "name" : "host",
+    "value" : "d0df6cd88b67"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_task_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d57d9f60c28f764f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737465003566,
+          "stop" : 1737465005157,
+          "duration" : 1591
+        }
+      }, {
+        "uid" : "6acfebc28e02afe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737457642171,
+          "stop" : 1737457643920,
+          "duration" : 1749
+        }
+      }, {
+        "uid" : "a094bc24b3b30836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737381764189,
+          "stop" : 1737381765756,
+          "duration" : 1567
+        }
+      }, {
+        "uid" : "4a8389ed9842ace4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737379007477,
+          "stop" : 1737379009559,
+          "duration" : 2082
+        }
+      }, {
+        "uid" : "79395e735dc0b100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378302359,
+          "stop" : 1737378303304,
+          "duration" : 945
+        }
+      } ]
+    },
+    "tags" : [ "order(36)" ]
+  },
+  "source" : "bcedce562fd9d543.json",
+  "parameterValues" : [ ]
+}
