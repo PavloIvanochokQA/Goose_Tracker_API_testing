@@ -1,0 +1,221 @@
+{
+  "uid" : "5fca3950d714481f",
+  "name" : "T25: Create a task with an invalid priority.",
+  "fullName" : "tests.test_task_management.TestTaskManagement#test_create_task_with_invalid_priority",
+  "historyId" : "bea35be2d005962fe465c4f71f78293d",
+  "time" : {
+    "start" : 1738503483177,
+    "stop" : 1738503484254,
+    "duration" : 1077
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement",
+    "time" : {
+      "start" : 1738503483177,
+      "stop" : 1738503483177,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738503462448,
+      "stop" : 1738503462449,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1738503483177,
+        "stop" : 1738503483792,
+        "duration" : 615
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be87511f27653cfc",
+        "name" : "API Response",
+        "source" : "be87511f27653cfc.json",
+        "type" : "application/json",
+        "size" : 519
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Create a task with an invalid priority.",
+      "time" : {
+        "start" : 1738503483792,
+        "stop" : 1738503484254,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2071f02ec3504558",
+        "name" : "API Response",
+        "source" : "2071f02ec3504558.json",
+        "type" : "application/json",
+        "size" : 1075
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWY3NTNiNmViMTI0NDRmMmI0NmQyMCIsImlhdCI6MTczODUwMzQ4MywiZXhwIjoxNzM4NTA3MDgzfQ.N8_dArzbem4F_r_IXB1kwwWV4plGu7ldwD2kTi7zOhY'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement::0",
+    "time" : {
+      "start" : 1738503484254,
+      "stop" : 1738503484254,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Task Management"
+  }, {
+    "name" : "tag",
+    "value" : "order(25)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskManagement"
+  }, {
+    "name" : "host",
+    "value" : "1ae841824f73"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_task_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "7ae1585e12b2cbb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737733815013,
+          "stop" : 1737733815862,
+          "duration" : 849
+        }
+      }, {
+        "uid" : "c5201469a21b5f78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737464991781,
+          "stop" : 1737464992804,
+          "duration" : 1023
+        }
+      }, {
+        "uid" : "9cbeb6c088b87c88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737457629964,
+          "stop" : 1737457630881,
+          "duration" : 917
+        }
+      }, {
+        "uid" : "e9fdefb1d9ddb974",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737381752470,
+          "stop" : 1737381753303,
+          "duration" : 833
+        }
+      }, {
+        "uid" : "f4b084db0db961ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378992203,
+          "stop" : 1737378993304,
+          "duration" : 1101
+        }
+      }, {
+        "uid" : "9ca0ff3ddd307e87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378295766,
+          "stop" : 1737378296240,
+          "duration" : 474
+        }
+      } ]
+    },
+    "tags" : [ "order(25)" ]
+  },
+  "source" : "5fca3950d714481f.json",
+  "parameterValues" : [ ]
+}

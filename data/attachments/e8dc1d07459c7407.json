@@ -1,0 +1,12 @@
+{
+    "_id": "679f75336eb12444f2b46cf6",
+    "name": "Randy",
+    "email": "stephensonsteven@example.com",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWY3NTMzNmViMTI0NDRmMmI0NmNmNiIsImlhdCI6MTczODUwMzQ3NSwiZXhwIjoxNzM4NTA3MDc1fQ.WGSDsxamRnJeuE-1Y2voW3JlHvOw05JQJedzZGj1D2A",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWY3NTMzNmViMTI0NDRmMmI0NmNmNiIsImlhdCI6MTczODUwMzQ3NSwiZXhwIjoxNzQxMDk1NDc1fQ.OE0ggRpCVM-XzP7hR9-w4ECBQSAo-9iED1qsvHyz-Ng",
+    "phone": "(331)232-2399x4152",
+    "birthday": "1970-11-19",
+    "skype": "theresapetersen",
+    "userImgUrl": "https://picsum.photos/499/248",
+    "userTasks": []
+}

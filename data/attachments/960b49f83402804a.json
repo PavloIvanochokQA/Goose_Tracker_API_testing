@@ -1,0 +1,13 @@
+{
+    "_id": "679f75496eb12444f2b46d70",
+    "title": "Some process finish.",
+    "start": "15:46:01",
+    "end": "04:46:26",
+    "priority": "medium",
+    "category": "in-progress",
+    "owner": "679f75496eb12444f2b46d6c",
+    "date": "2025-01-20T00:00:00.000Z",
+    "createdAt": "2025-02-02T13:38:17.646Z",
+    "updatedAt": "2025-02-02T13:38:17.646Z",
+    "__v": 0
+}

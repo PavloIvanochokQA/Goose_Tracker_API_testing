@@ -1,0 +1,9 @@
+{
+    "id": "679f75446eb12444f2b46d51",
+    "name": "Timothy",
+    "email": "conradamanda@example.org",
+    "data": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWY3NTQ0NmViMTI0NDRmMmI0NmQ1MSIsImlhdCI6MTczODUwMzQ5MiwiZXhwIjoxNzM4NTA3MDkyfQ.dRq_F4Uu5I3j30cTJLZf-PjtYtC8I8HlPBb3dpuORXE",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWY3NTQ0NmViMTI0NDRmMmI0NmQ1MSIsImlhdCI6MTczODUwMzQ5MiwiZXhwIjoxNzQxMDk1NDkyfQ.zPxAEMjGHc2EWsGPAyZahtBG386k70rfEhGhDia2ysk"
+    }
+}

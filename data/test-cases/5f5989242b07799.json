@@ -1,0 +1,258 @@
+{
+  "uid" : "5f5989242b07799",
+  "name" : "T32: Update an existing task with an invalid time.",
+  "fullName" : "tests.test_task_management.TestTaskManagement#test_update_task_with_invalid_time",
+  "historyId" : "82ac6b61e9104cd27d84bdea5fed4e6f",
+  "time" : {
+    "start" : 1738503491792,
+    "stop" : 1738503493392,
+    "duration" : 1600
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '679f75446eb12444f2b46d55', 'title': 'Four north politics.', 'start': 'single', 'end': 'position', 'priority': 'medium', 'category': 'in-progress', 'owner': '679f75446eb12444f2b46d51', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-02-02T13:38:12.802Z', 'updatedAt': '2025-02-02T13:38:13.284Z', '__v': 0}}",
+  "statusTrace" : "self = <test_task_management.TestTaskManagement object at 0x7fcf9fdde6d0>\n\n    @pytest.mark.order(32)\n    @allure.title(\"T32: Update an existing task with an invalid time.\")\n    def test_update_task_with_invalid_time(self):\n        user = self.api_user_auth.create_user()\n        task = self.api_task.create_task(Token=user.data.accessToken)\n>       self.api_task.update_task_with_invalid_time(Token=user.data.accessToken, task_id=task.id)\n\ntests/test_task_management.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/Task/api_task.py:148: in update_task_with_invalid_time\n    self.assert_status(response, 400)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.Task.api_task.TaskAPI object at 0x7fcf9e418610>\nresponse = <Response [200]>, expected_status = 400\n\n    def assert_status(self, response, expected_status):\n>       assert response.status_code == expected_status, \\\n            (f\"Expected status code {expected_status}, but got {response.status_code}. Response: {response.json()}\")\nE       AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '679f75446eb12444f2b46d55', 'title': 'Four north politics.', 'start': 'single', 'end': 'position', 'priority': 'medium', 'category': 'in-progress', 'owner': '679f75446eb12444f2b46d51', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-02-02T13:38:12.802Z', 'updatedAt': '2025-02-02T13:38:13.284Z', '__v': 0}}\n\nutils/helper.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement",
+    "time" : {
+      "start" : 1738503491792,
+      "stop" : 1738503491792,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738503462448,
+      "stop" : 1738503462449,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '679f75446eb12444f2b46d55', 'title': 'Four north politics.', 'start': 'single', 'end': 'position', 'priority': 'medium', 'category': 'in-progress', 'owner': '679f75446eb12444f2b46d51', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-02-02T13:38:12.802Z', 'updatedAt': '2025-02-02T13:38:13.284Z', '__v': 0}}",
+    "statusTrace" : "self = <test_task_management.TestTaskManagement object at 0x7fcf9fdde6d0>\n\n    @pytest.mark.order(32)\n    @allure.title(\"T32: Update an existing task with an invalid time.\")\n    def test_update_task_with_invalid_time(self):\n        user = self.api_user_auth.create_user()\n        task = self.api_task.create_task(Token=user.data.accessToken)\n>       self.api_task.update_task_with_invalid_time(Token=user.data.accessToken, task_id=task.id)\n\ntests/test_task_management.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/Task/api_task.py:148: in update_task_with_invalid_time\n    self.assert_status(response, 400)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.Task.api_task.TaskAPI object at 0x7fcf9e418610>\nresponse = <Response [200]>, expected_status = 400\n\n    def assert_status(self, response, expected_status):\n>       assert response.status_code == expected_status, \\\n            (f\"Expected status code {expected_status}, but got {response.status_code}. Response: {response.json()}\")\nE       AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '679f75446eb12444f2b46d55', 'title': 'Four north politics.', 'start': 'single', 'end': 'position', 'priority': 'medium', 'category': 'in-progress', 'owner': '679f75446eb12444f2b46d51', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-02-02T13:38:12.802Z', 'updatedAt': '2025-02-02T13:38:13.284Z', '__v': 0}}\n\nutils/helper.py:13: AssertionError",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1738503491793,
+        "stop" : 1738503492416,
+        "duration" : 623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "454e2d483bfaae39",
+        "name" : "API Response",
+        "source" : "454e2d483bfaae39.json",
+        "type" : "application/json",
+        "size" : 521
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Create a new task.",
+      "time" : {
+        "start" : 1738503492416,
+        "stop" : 1738503492901,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a9ac429bfadc843",
+        "name" : "API Response",
+        "source" : "3a9ac429bfadc843.json",
+        "type" : "application/json",
+        "size" : 368
+      } ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWY3NTQ0NmViMTI0NDRmMmI0NmQ1MSIsImlhdCI6MTczODUwMzQ5MiwiZXhwIjoxNzM4NTA3MDkyfQ.dRq_F4Uu5I3j30cTJLZf-PjtYtC8I8HlPBb3dpuORXE'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Update a task with an invalid time.",
+      "time" : {
+        "start" : 1738503492901,
+        "stop" : 1738503493391,
+        "duration" : 490
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '679f75446eb12444f2b46d55', 'title': 'Four north politics.', 'start': 'single', 'end': 'position', 'priority': 'medium', 'category': 'in-progress', 'owner': '679f75446eb12444f2b46d51', 'date': '2025-01-08T00:00:00.000Z', 'createdAt': '2025-02-02T13:38:12.802Z', 'updatedAt': '2025-02-02T13:38:13.284Z', '__v': 0}}\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.11/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/usr/workspace/services/Task/api_task.py\", line 148, in update_task_with_invalid_time\n    self.assert_status(response, 400)\n  File \"/usr/workspace/utils/helper.py\", line 13, in assert_status\n    assert response.status_code == expected_status, \\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Token",
+        "value" : "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWY3NTQ0NmViMTI0NDRmMmI0NmQ1MSIsImlhdCI6MTczODUwMzQ5MiwiZXhwIjoxNzM4NTA3MDkyfQ.dRq_F4Uu5I3j30cTJLZf-PjtYtC8I8HlPBb3dpuORXE'"
+      }, {
+        "name" : "task_id",
+        "value" : "'679f75446eb12444f2b46d55'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestTaskManagement::0",
+    "time" : {
+      "start" : 1738503493398,
+      "stop" : 1738503493398,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Task Management"
+  }, {
+    "name" : "tag",
+    "value" : "order(32)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskManagement"
+  }, {
+    "name" : "host",
+    "value" : "1ae841824f73"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_task_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "4c64fd428e01db95",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '6793b6be6eb12444f2b46c6f', 'title': 'Close.', 'start': 'pass', 'end': 'financial', 'priority': 'high', 'category': 'in-progress', 'owner': '6793b6be6eb12444f2b46c6b', 'date': '2025-01-22T00:00:00.000Z', 'createdAt': '2025-01-24T15:50:22.637Z', 'updatedAt': '2025-01-24T15:50:22.992Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737733821858,
+          "stop" : 1737733823066,
+          "duration" : 1208
+        }
+      }, {
+        "uid" : "50152244d8ac5f44",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f9ca76eb12444f2b46b9b', 'title': 'Item half husband.', 'start': 'a', 'end': 'woman', 'priority': 'high', 'category': 'to-do', 'owner': '678f9ca66eb12444f2b46b97', 'date': '2025-01-11T00:00:00.000Z', 'createdAt': '2025-01-21T13:09:59.455Z', 'updatedAt': '2025-01-21T13:09:59.809Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737464998693,
+          "stop" : 1737464999883,
+          "duration" : 1190
+        }
+      }, {
+        "uid" : "7c8104b586d6e7d9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678f7fe56eb12444f2b46ac7', 'title': 'Smile however drop.', 'start': 'radio', 'end': 'financial', 'priority': 'high', 'category': 'to-do', 'owner': '678f7fe56eb12444f2b46ac3', 'date': '2025-01-07T00:00:00.000Z', 'createdAt': '2025-01-21T11:07:17.612Z', 'updatedAt': '2025-01-21T11:07:18.012Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737457636746,
+          "stop" : 1737457638097,
+          "duration" : 1351
+        }
+      }, {
+        "uid" : "d994b9668f0f8c4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e57806eb12444f2b469f6', 'title': 'Spend personal claim.', 'start': 'will', 'end': 'tend', 'priority': 'low', 'category': 'in-progress', 'owner': '678e577f6eb12444f2b469f2', 'date': '2025-01-02T00:00:00.000Z', 'createdAt': '2025-01-20T14:02:40.083Z', 'updatedAt': '2025-01-20T14:02:40.441Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737381759312,
+          "stop" : 1737381760520,
+          "duration" : 1208
+        }
+      }, {
+        "uid" : "c95788375f790ba1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e4cb96eb12444f2b46925', 'title': 'Per military door.', 'start': 'color', 'end': 'weight', 'priority': 'low', 'category': 'done', 'owner': '678e4cb96eb12444f2b46921', 'date': '2025-01-03T00:00:00.000Z', 'createdAt': '2025-01-20T13:16:41.957Z', 'updatedAt': '2025-01-20T13:16:42.447Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737379000948,
+          "stop" : 1737379002546,
+          "duration" : 1598
+        }
+      }, {
+        "uid" : "234ef74371d28b8b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 400, but got 200. Response: {'status': 'success', 'task': {'_id': '678e49fc6eb12444f2b46851', 'title': 'Natural oil attention.', 'start': 'successful', 'end': 'increase', 'priority': 'low', 'category': 'to-do', 'owner': '678e49fc6eb12444f2b4684d', 'date': '2025-01-02T00:00:00.000Z', 'createdAt': '2025-01-20T13:05:00.383Z', 'updatedAt': '2025-01-20T13:05:00.567Z', '__v': 0}}",
+        "time" : {
+          "start" : 1737378299609,
+          "stop" : 1737378300293,
+          "duration" : 684
+        }
+      } ]
+    },
+    "tags" : [ "order(32)" ]
+  },
+  "source" : "5f5989242b07799.json",
+  "parameterValues" : [ ]
+}

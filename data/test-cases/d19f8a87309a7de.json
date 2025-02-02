@@ -1,0 +1,221 @@
+{
+  "uid" : "d19f8a87309a7de",
+  "name" : "T04: Create a new user with an already existing email.",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_create_user_with_already_existing_email",
+  "historyId" : "e838d45e7ecc75ed7d7a337dad74a545",
+  "time" : {
+    "start" : 1738503464840,
+    "stop" : 1738503466062,
+    "duration" : 1222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1738503464839,
+      "stop" : 1738503464839,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738503462448,
+      "stop" : 1738503462449,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a new user.",
+      "time" : {
+        "start" : 1738503464840,
+        "stop" : 1738503465606,
+        "duration" : 766
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55b88c605da6777b",
+        "name" : "API Response",
+        "source" : "55b88c605da6777b.json",
+        "type" : "application/json",
+        "size" : 519
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Create a user with email.",
+      "time" : {
+        "start" : 1738503465606,
+        "stop" : 1738503466062,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "da52aba6b4f96831",
+        "name" : "API Response",
+        "source" : "da52aba6b4f96831.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "'njames@example.org'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1738503466063,
+      "stop" : 1738503466063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User Authentication"
+  }, {
+    "name" : "tag",
+    "value" : "order(4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "1ae841824f73"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "70062858aab6f141",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737733800710,
+          "stop" : 1737733801554,
+          "duration" : 844
+        }
+      }, {
+        "uid" : "5a1a8fc4b0259c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737464976966,
+          "stop" : 1737464977938,
+          "duration" : 972
+        }
+      }, {
+        "uid" : "280bc048c69bd090",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737457614051,
+          "stop" : 1737457615118,
+          "duration" : 1067
+        }
+      }, {
+        "uid" : "a3e1f2aabd4f5a9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737381738074,
+          "stop" : 1737381738945,
+          "duration" : 871
+        }
+      }, {
+        "uid" : "e7f68aea282c036",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378972714,
+          "stop" : 1737378974659,
+          "duration" : 1945
+        }
+      }, {
+        "uid" : "6d90acfbae59f939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737378287881,
+          "stop" : 1737378288349,
+          "duration" : 468
+        }
+      } ]
+    },
+    "tags" : [ "order(4)" ]
+  },
+  "source" : "d19f8a87309a7de.json",
+  "parameterValues" : [ ]
+}

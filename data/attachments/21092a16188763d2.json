@@ -1,0 +1,16 @@
+{
+    "status": "success",
+    "task": {
+        "_id": "679f75416eb12444f2b46d43",
+        "title": "Husband of.",
+        "start": "13:53:16",
+        "end": "08:08:55",
+        "priority": "medium",
+        "category": "done",
+        "owner": "679f75406eb12444f2b46d3f",
+        "date": "2025-01-14T00:00:00.000Z",
+        "createdAt": "2025-02-02T13:38:09.602Z",
+        "updatedAt": "2025-02-02T13:38:10.088Z",
+        "__v": 0
+    }
+}
