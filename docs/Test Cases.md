@@ -1,4 +1,4 @@
-# Checklist for Testing GooseTrack API
+# Test Cases for Testing GooseTrack API
 
 ## 1. User Authentication (UserAuth)
 * T01: Create a new user with a valid email, password, and name.
